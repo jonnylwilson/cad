@@ -1,0 +1,1186 @@
+//
+//      AutoCAD menu file
+//      Website : http://www.netik.name
+//      Neem van tijd tot tijd een kijkje op mijn website voor de upgrades
+//      Dat is gratis, zonder reklame en zonder beperkingen
+//      Alle blocks kunnen gewijzigd worden
+//      
+//      Take a look from time to time to my website for the upgrades
+//      Fully free, no stamps, no ads, no limitations
+//      every symbols blocks fully editable
+//      
+//      
+
+***MENUGROUP=Symboles_Netik_NL
+
+***POP1
+               [&Symboles_Netik_NL]
+ID_Symboles_Netik    [Relais, Tijdsrelais,...]^C^C$I=Symboles_Netik_NL.ELEC11 $I=* 
+ID_Symboles_Netik    [Contactoren,...]^C^C$I=Symboles_Netik_NL.ELEC16 $I=* 
+ID_Symboles_Netik    [Contacten,...]^C^C$I=Symboles_Netik_NL.ELEC06A $I=* 
+ID_Symboles_Netik    [Master-Slaaf Ref,...]^C^C$I=Symboles_Netik_NL.ELEC06B $I=* 
+ID_Symboles_Netik    [Klemmen,Stekker,...]^C^C$I=Symboles_Netik_NL.ELEC03 $I=* 
+ID_Symboles_Netik    [Type van bediening,...]^C^C$I=Symboles_Netik_NL.ELEC02A $I=* 
+ID_Symboles_Netik    [Schakelaars,...]^C^C$I=Symboles_Netik_NL.ELEC02B $I=* 
+ID_Symboles_Netik    [Verbindingen,...]^C^C$I=Symboles_Netik_NL.ELEC02C $I=*
+ID_Symboles_Netik    [Funkties,...]^C^C$I=Symboles_Netik_NL.ELEC21 $I=*
+               [--]
+ID_Symboles_Netik    [Titelblad,...]^C^C$I=Symboles_Netik_NL.CARTOUCHES01 $I=*
+ID_Symboles_Netik    [Algemeenheden,...]^C^C$I=Symboles_Netik_NL.GEN01 $I=* 
+               [--]
+ID_Symboles_Netik    [Automaten,...]^C^C$I=Symboles_Netik_NL.ELEC17 $I=*
+ID_Symboles_Netik    [Smeltzekeringen,...]^C^C$I=Symboles_Netik_NL.ELEC12A $I=* 
+ID_Symboles_Netik    [Scheiders,...]^C^C$I=Symboles_Netik_NL.ELEC12B $I=* 
+               [--]
+ID_Symboles_Netik    [Motor,Trafo,...]^C^C$I=Symboles_Netik_NL.ELEC04 $I=* 
+ID_Symboles_Netik    [Batterijen,Dioden,...]^C^C$I=Symboles_Netik_NL.ELEC05 $I=* 
+ID_Symboles_Netik    [Bobijnen,Wikkelingen,...]^C^C$I=Symboles_Netik_NL.ELEC10 $I=* 
+ID_Symboles_Netik    [Omvormer,...]^C^C$I=Symboles_Netik_NL.ELEC13 $I=* 
+               [--]
+ID_Symboles_Netik    [Stopcontact,Verlichting,...]^C^C$I=Symboles_Netik_NL.ELEC07 $I=* 
+ID_Symboles_Netik    [Weerstanden,Thermocouple,...]^C^C$I=Symboles_Netik_NL.ELEC08 $I=* 
+ID_Symboles_Netik    [Condensatoren,...]^C^C$I=Symboles_Netik_NL.ELEC09 $I=* 
+ID_Symboles_Netik    [Signalisatie, Meting,Telling,...]^C^C$I=Symboles_Netik_NL.ELEC14 $I=* 
+ID_Symboles_Netik    [Lampen,Aanduiders,...]^C^C$I=Symboles_Netik_NL.ELEC15 $I=* 
+               [--]
+ID_Symboles_Netik    [Dozen,...]^C^C$I=Symboles_Netik_NL.ELEC18 $I=* 
+ID_Symboles_Netik    [Automatizering,...]^C^C$I=Symboles_Netik_NL.ELEC19 $I=* 
+               [--]
+ID_Symboles_Netik    [Spanning,Stroom,...]^C^C$I=Symboles_Netik_NL.ELEC01 $I=* 
+ID_Symboles_Netik    [Kabel rep horiz,...]^C^C$I=Symboles_Netik_NL.ELEC20A $I=* 
+ID_Symboles_Netik    [Kabel rep vert,...]^C^C$I=Symboles_Netik_NL.ELEC20B $I=* 
+               [--]
+ID_Symboles_Netik    [->Eendraad symbolen]
+ID_Symboles_Netik    [Eendraad: Huishoud apparaten]^C^C$I=Symboles_Netik_NL.UNIF01 $I=* 
+ID_Symboles_Netik    [Eendraad: Stopcontacten en lampen]^C^C$I=Symboles_Netik_NL.UNIF02 $I=* 
+ID_Symboles_Netik    [Eendraad: Knoppen-omschakelaars]^C^C$I=Symboles_Netik_NL.UNIF03 $I=* 
+ID_Symboles_Netik    [Eendraad: Aanduiders]^C^C$I=Symboles_Netik_NL.UNIF04 $I=*
+ID_Symboles_Netik    [Eendraad: Motor-trafo]^C^C$I=Symboles_Netik_NL.UNIF05 $I=*
+ID_Symboles_Netik    [Eendraad: Apparaten voor elektrische bord]^C^C$I=Symboles_Netik_NL.UNIF06 $I=*
+ID_Symboles_Netik    [<-Eendraad: Leidingen]^C^C$I=Symboles_Netik_NL.UNIF07 $I=*
+               [--]
+ID_Symboles_Netik    [->Installatie Symbolen]
+ID_Symboles_Netik    [1 Onderstation in project]^C^C$I=Symboles_Netik_NL.INST01 $I=*
+ID_Symboles_Netik    [2 Onderstation in dienst]^C^C$I=Symboles_Netik_NL.INST02 $I=* 
+ID_Symboles_Netik    [3 Allerlei]^C^C$I=Symboles_Netik_NL.INST03 $I=* 
+ID_Symboles_Netik    [4 Kop of net en versterkers]^C^C$I=Symboles_Netik_NL.INST04 $I=*
+ID_Symboles_Netik    [5 Verdelers]^C^C$I=Symboles_Netik_NL.INST05 $I=*
+ID_Symboles_Netik    [6 Aftakking en stopcontact]^C^C$I=Symboles_Netik_NL.INST06 $I=*
+ID_Symboles_Netik    [7 Gelijkrichter en verzachter]^C^C$I=Symboles_Netik_NL.INST07 $I=*
+ID_Symboles_Netik    [<-8 Voedingen]^C^C$I=Symboles_Netik_NL.INST08 $I=*
+
+***TOOLBARS
+
+***IMAGE
+**ELEC01
+[ELEC01,Spanning en Stroom]
+[ARRIVEE_POT_1L,Aankomst pot 1 lijn H]-insert ARRIVEE_POT_1L;\;;;
+[ARRIVEE_POT_1L_VERT,Aankomst pot 1 lijn V]-insert ARRIVEE_POT_1L_VERT;\;;;
+[ARRIVEE_POT_2L,Aankomst pot 2 lijn H]-insert ARRIVEE_POT_2L;\;;;
+[ARRIVEE_POT_2L_VERT,Aankomst pot 2 lijnen V]-insert ARRIVEE_POT_2L_VERT;\;;;
+[DEPART_POT_1L,Vertrek pot 1 lijn H]-insert DEPART_POT_1L;\;;;
+[DEPART_POT_1L_VERT,Vertrek pot 1 lijn V]-insert DEPART_POT_1L_VERT;\;;;
+[DEPART_POT_2L,Vertrek pot 2 lijn H]-insert DEPART_POT_2L;\;;;
+[DEPART_POT_2L_VERT,Vertrek pot 2 lijnen V]-insert DEPART_POT_2L_VERT;\;;;
+[POTENTIEL_HORIZ,Potentiaal H]-insert POTENTIEL_HORIZ;\;;;
+[POTENTIEL_VERT,Potentiaal V]-insert POTENTIEL_VERT;\;;;
+[TERRE,Aarding]-insert TERRE;\;;;
+[TERRE_PROTECTION,Aarding beveiliging]-insert TERRE_PROTECTION;\;;;
+[TERRE_SANS_BRUIT,Aarding zonder lawaai]-insert TERRE_SANS_BRUIT;\;;;
+[MASSE_CHASSIS,Massa]-insert MASSE_CHASSIS;\;;;
+[DEFAUT,Defekt]-insert DEFAUT;\;;;
+[DEFAUT_ISOLEMENT,Isolatie defekt]-insert DEFAUT_ISOLEMENT;\;;;
+[COURANT_AC,AC spanning]-insert COURANT_AC;\;;;
+[COURANT_DC,DC spanning]-insert COURANT_DC;\;;;
+[COURANT_REDRESSE,DC Stroom opgericht]-insert COURANT_REDRESSE;\;;;
+[3P_N_PE_VERT,3P+N+PE Vert]-insert 3P_N_PE_VERT;\;;;
+[3P_N_VERT,3P+N Vert]-insert 3P_N_VERT;\;;;
+[3P_PE_VERT,3P+PE Vert]-insert 3P_PE_VERT;\;;;
+[3P_PEN_VERT,3P+PEN Vert]-insert 3P_PEN_VERT;\;;;
+[3P_VERT,3P Vert]-insert 3P_VERT;\;;;
+[2P_N_PE_VERT,2P+N+PE Vert]-insert 2P_N_PE_VERT;\;;;
+[2P_N_VERT,2P+N Vert]-insert 2P_N_VERT;\;;;
+[2P_PE_VERT,2P+PE Vert]-insert 2P_PE_VERT;\;;;
+[2P_VERT,2P Vert]-insert 2P_VERT;\;;;
+[1P_N_PE_VERT,1P+N+PE Vert]-insert 1P_N_PE_VERT;\;;;
+[1P_N_VERT,1P+N Vert]-insert 1P_N_VERT;\;;;
+[1P_PE_VERT,1P+PE Vert]-insert 1P_PE_VERT;\;;;
+[1P_VERT,1P Vert]-insert 1P_VERT;\;;;
+[1N_VERT,N Horiz]-insert 1N_VERT;\;;;
+[1PE_VERT,PE Horiz]-insert 1PE_VERT;\;;;
+[1PEN_VERT,PEN Horiz]-insert 1PEN_VERT;\;;;
+[3P_N_PE_HORIZ,3P+N+PE Horiz]-insert 3P_N_PE_HORIZ;\;;;
+[3P_N_HORIZ,3P+N Horiz]-insert 3P_N_HORIZ;\;;;
+[3P_PE_HORIZ,3P+PE Horiz]-insert 3P_PE_HORIZ;\;;;
+[3P_PEN_HORIZ,3P+PEN Horiz]-insert 3P_PEN_HORIZ;\;;;
+[3P_HORIZ,3P Horiz]-insert 3P_HORIZ;\;;;
+[2P_N_PE_HORIZ,2P+N+PE Horiz]-insert 2P_N_PE_HORIZ;\;;;
+[2P_N_HORIZ,2P+N Horiz]-insert 2P_N_HORIZ;\;;;
+[2P_PE_HORIZ,2P+PE Horiz]-insert 2P_PE_HORIZ;\;;;
+[2P_HORIZ,2P Horiz]-insert 2P_HORIZ;\;;;
+[1P_N_PE_HORIZ,1P+N+PE Horiz]-insert 1P_N_PE_HORIZ;\;;;
+[1P_N_HORIZ,1P+N Horiz]-insert 1P_N_HORIZ;\;;;
+[1P_PE_HORIZ,1P+PE Horiz]-insert 1P_PE_HORIZ;\;;;
+[1P_HORIZ,1P Horiz]-insert 1P_HORIZ;\;;;
+[1N_HORIZ,N Horiz]-insert 1N_HORIZ;\;;;
+[1PE_HORIZ,PE Horiz]-insert 1PE_HORIZ;\;;;
+[1PEN_HORIZ,PEN Horiz]-insert 1PEN_HORIZ;\;;;
+
+**ELEC02A
+[ELEC02A,Type van bediening]
+[CDE_A_ACCROCHAGE,met aankoppeling]-insert CDE_A_ACCROCHAGE;\;;;
+[CDE_CAME_GALET,nokken]-insert CDE_CAME_GALET;\;;;
+[CDE_DET_PROX,induktieve benadering]-insert CDE_DET_PROX;\;;;
+[CDE_DET_PROX_AIMANT,magnetische benadering]-insert CDE_DET_PROX_AIMANT;\;;;
+[CDE_DET_PROX_FER,magnetische benadering ijzer]-insert CDE_DET_PROX_FER;\;;;
+[CDE_MANU_ACCES_REST,beperkte toegang]-insert CDE_MANU_ACCES_REST;\;;;
+[CDE_MANU_AU,Noodstop]-insert CDE_MANU_AU;\;;;
+[CDE_MANU_GENERAL,manueel algemeen]-insert CDE_MANU_GENERAL;\;;;
+[CDE_MANU_POUSSOIR,manueel drukken]-insert CDE_MANU_POUSSOIR;\;;;
+[CDE_MANU_ROTATION,manueel draaien]-insert CDE_MANU_ROTATION;\;;;
+[CDE_MANU_TIRETTE,manueel te trekken]-insert CDE_MANU_TIRETTE;\;;;
+[CDE_MANU_VOLANT,manueel stuurwiel]-insert CDE_MANU_VOLANT;\;;;
+[CDE_MECANIQUE,mekanisch]-insert CDE_MECANIQUE;\;;;
+[CDE_MOTORISEE,motor]-insert CDE_MOTORISEE;\;;;
+[CDE_HYDR_2_EFFET,hydr 2 effect]-insert CDE_HYDR_2_EFFET;\;;;
+[CDE_HYDR_1_EFFET,hydr 1 effect]-insert CDE_HYDR_1_EFFET;\;;;
+[CDE_PAR_CAME,nokken]-insert CDE_PAR_CAME;\;;;
+[CDE_PAR_CLEF,sleutel]-insert CDE_PAR_CLEF;\;;;
+[CDE_PAR_EFFLEUREM,benadering]-insert CDE_PAR_EFFLEUREM;\;;;
+[CDE_PAR_FDC_BAS,eindschakel beneden]-insert CDE_PAR_FDC_BAS;\;;;
+[CDE_PAR_FDC_HAUT,eindschakel boven]-insert CDE_PAR_FDC_HAUT;\;;;
+[CDE_PAR_FLOTTEUR,vlotter]-insert CDE_PAR_FLOTTEUR;\;;;
+[CDE_PAR_DEBIT_FLUIDE,door debiet vloeistof]-insert CDE_PAR_DEBIT_FLUIDE;\;;;
+[CDE_PAR_DEBIT_GAZ,door debiet gas]-insert CDE_PAR_DEBIT_GAZ;\;;;
+[CDE_PAR_GALET,nokken]-insert CDE_PAR_GALET;\;;;
+[CDE_PAR_HORLOGE,klok]-insert CDE_PAR_HORLOGE;\;;;
+[CDE_PAR_LEVIER,hendel]-insert CDE_PAR_LEVIER;\;;;
+[CDE_MANU_AMOVIBLE,manueel uitneembaar]-insert CDE_MANU_AMOVIBLE;\;;;
+[CDE_PAR_MAGNET,magnet]-insert CDE_PAR_MAGNET;\;;;
+[CDE_PAR_MANIVEL,kruk]-insert CDE_PAR_MANIVEL;\;;;
+[CDE_PAR_PEDALE,pedaal]-insert CDE_PAR_PEDALE;\;;;
+[CDE_PAR_THERMIQ,termisch]-insert CDE_PAR_THERMIQ;\;;;
+[CDE_PAR_VARIABLE,variabel: te kiezen]-insert CDE_PAR_VARIABLE;\;;;
+[CDE_ROTAT_ACCROCH,draaiend met aankoppeling]-insert CDE_ROTAT_ACCROCH;\;;;
+
+**ELEC02B
+[ELEC02B,Bevel schakelaars]
+[BP_CHARNIERE,Drukknop 1 wisselkontakt]-insert BP_CHARNIERE;\;;;
+[BP_NF,Drukknop 1NG]-insert BP_NF;\;;;
+[BP_NO,Drukknop 1NO]-insert BP_NO;\;;;
+[SWITCH_2POS,2 standen]-insert SWITCH_2POS;\;;;
+[SWITCH_2POS_RAPPEL_G,2 standen terugkeer Links]-insert SWITCH_2POS_RAPPEL_G;\;;;
+[SWITCH_2POS_RAPPEL_D,2 standen terugkeer Rechts]-insert SWITCH_2POS_RAPPEL_D;\;;;
+[SWITCH_3POS,3 standen]-insert SWITCH_3POS;\;;;
+[SWITCH_3POS_ADDIT,3 standen bijkomende]-insert SWITCH_3POS_ADDIT;\;;;
+[SWITCH_3POS_RAPPEL_D,3 standen terugkeer Rechts]-insert SWITCH_3POS_RAPPEL_D;\;;;
+[SWITCH_3POS_RAPPEL_G,3 standen terugkeer Links]-insert SWITCH_3POS_RAPPEL_G;\;;;
+[SWITCH_7POS_VOLTM,7 standen voltmeter]-insert SWITCH_7POS_VOLTM;\;;;
+
+**ELEC02C
+[ELEC02C,Verbindingen]
+[LIAISON,Verbinding]-insert LIAISON;\;;;
+[LIAISON_ACCROCHAGE,Aankoppeling]-insert LIAISON_ACCROCHAGE;\;;;
+[LIAISON_ACCR_LIBRE,Aankoppeling vrij]-insert LIAISON_ACCR_LIBRE;\;;;
+[LIAISON_ACCR_PRISE,Aankoppeling ingesteld]-insert LIAISON_ACCR_PRISE;\;;;
+[LIAISON_BLOQ_DR,Blokkering rechts]-insert LIAISON_BLOQ_DR;\;;;
+[LIAISON_BLOQ_G,Blokkering links]-insert LIAISON_BLOQ_G;\;;;
+[LIAISON_CRAN_LIBRE,Pal vrij]-insert LIAISON_CRAN_LIBRE;\;;;
+[LIAISON_CRAN_MIS,Pal ingesteld]-insert LIAISON_CRAN_MIS;\;;;
+[LIAISON_FREIN_LIBRE,Rem vrij]-insert LIAISON_FREIN_LIBRE;\;;;
+[LIAISON_FREIN_MIS,Rem ingesteld]-insert LIAISON_FREIN_MIS;\;;;
+[LIAISON_MECAN_LIBRE,Mecanisch vrij]-insert LIAISON_MECAN_LIBRE;\;;;
+[LIAISON_MECAN_MIS,Mecanisch ingesteld]-insert LIAISON_MECAN_MIS;\;;;
+[LIAISON_PAR_BLOQ,door blokkering]-insert LIAISON_PAR_BLOQ;\;;;
+[LIAISON_PAR_CRAN,door pal]-insert LIAISON_PAR_CRAN;\;;;
+[LIAISON_RETOUR_AUTO,Auto terugkeer]-insert LIAISON_RETOUR_AUTO;\;;;
+[LIAISON_VERROU_MECA,Mecanisch vergrendeling]-insert LIAISON_VERROU_MECA;\;;;
+
+**ELEC03
+[ELEC03,Klemmen-Stekker]
+[CONNEXION,Aansluiting]-insert CONNEXION;\;;;
+[BORNE_V_TXT_H,Vert txt horiz]-insert BORNE_V_TXT_H;\;;;
+[BORNE_V_TXT_V,Vert txt vert]-insert BORNE_V_TXT_V;\;;;
+[BORNE_H_TXT_H,Horiz txt horiz]-insert BORNE_H_TXT_H;\;;;
+[BORNE_H_TXT_V,Horiz txt vert]-insert BORNE_H_TXT_V;\;;;
+[BORNE4P_TXT_H,4 punten txt horiz]-insert BORNE4P_TXT_H;\;;;
+[BORNE4P_TXT_V,4 punten txt vert]-insert BORNE4P_TXT_V;\;;;
+[CON_TEST_POINT,test punt]-insert CON_TEST_POINT;\;;;
+[CON_TEST_POINT_D,test punt rechts]-insert CON_TEST_POINT_D;\;;;
+[CON_TEST_POINT_G,test punt links]-insert CON_TEST_POINT_G;\;;;
+[CONNECT_EST_01P,1P rechts]-insert CONNECT_EST_01P;\;;;
+[CONNECT_EST_02P,2P rechts]-insert CONNECT_EST_02P;\;;;
+[CONNECT_EST_03P,3P rechts]-insert CONNECT_EST_03P;\;;;
+[CONNECT_EST_04P,4P rechts]-insert CONNECT_EST_04P;\;;;
+[CONNECT_EST_05P,5P rechts]-insert CONNECT_EST_05P;\;;;
+[CONNECT_EST_06P,6P rechts]-insert CONNECT_EST_06P;\;;;
+[CONNECT_EST_07P,7P rechts]-insert CONNECT_EST_07P;\;;;
+[CONNECT_EST_08P,8P rechts]-insert CONNECT_EST_08P;\;;;
+[CONNECT_EST_09P,9P rechts]-insert CONNECT_EST_09P;\;;;
+[CONNECT_EST_10P,10P rechts]-insert CONNECT_EST_10P;\;;;
+[CONNECT_EST_MULTI,xP rechts]-insert CONNECT_EST_MULTI;\;;;
+[CONNECT_OUEST_01P,1P links]-insert CONNECT_OUEST_01P;\;;;
+[CONNECT_OUEST_02P,2P links]-insert CONNECT_OUEST_02P;\;;;
+[CONNECT_OUEST_03P,3P links]-insert CONNECT_OUEST_03P;\;;;
+[CONNECT_OUEST_04P,4P links]-insert CONNECT_OUEST_04P;\;;;
+[CONNECT_OUEST_05P,5P links]-insert CONNECT_OUEST_05P;\;;;
+[CONNECT_OUEST_06P,6P links]-insert CONNECT_OUEST_06P;\;;;
+[CONNECT_OUEST_07P,7P links]-insert CONNECT_OUEST_07P;\;;;
+[CONNECT_OUEST_08P,8P links]-insert CONNECT_OUEST_08P;\;;;
+[CONNECT_OUEST_09P,9P links]-insert CONNECT_OUEST_09P;\;;;
+[CONNECT_OUEST_10P,10P links]-insert CONNECT_OUEST_10P;\;;;
+[CONNECT_OUEST_MULTI,xP links]-insert CONNECT_OUEST_MULTI;\;;;
+[CONNECT_DB25F_HORIZ,DB25V horiz]-insert CONNECT_DB25F_HORIZ;\;;;
+[CONNECT_DB25F_VERT,DB25V vert]-insert CONNECT_DB25F_VERT;\;;;
+[CONNECT_DB25M_HORIZ,DB25M horiz]-insert CONNECT_DB25M_HORIZ;\;;;
+[CONNECT_DB25M_VERT,DB25M vert]-insert CONNECT_DB25M_VERT;\;;;
+[CONNECT_DB9F_HORIZ,DB9V horiz]-insert CONNECT_DB9F_HORIZ;\;;;
+[CONNECT_DB9F_VERT,DB9V vert]-insert CONNECT_DB9F_VERT;\;;;
+[CONNECT_DB9M_HORIZ,DB9M horiz]-insert CONNECT_DB9M_HORIZ;\;;;
+[CONNECT_DB9M_VERT,DB9M vert]-insert CONNECT_DB9M_VERT;\;;;
+[CONNECT_DEBR_BAS,Uittrekbaar beneden]-insert CONNECT_DEBR_BAS;\;;;
+[CONNECT_DEBR_HAUT,Uittrekbaar boven]-insert CONNECT_DEBR_HAUT;\;;;
+
+**ELEC04
+[ELEC04,Motoren en Trafos]
+[MOTEUR_2P,Motor 2P]-insert MOTEUR_2P;\;;;
+[MOTEUR_3P,Motor 3P]-insert MOTEUR_3P;\;;;
+[MOTEUR_3P_2VIT,Motor 3P 2 snelheden]-insert MOTEUR_3P_2VIT;\;;;
+[MOTEUR_3P_Y_D,Motor 3P Y-D]-insert MOTEUR_3P_Y_D;\;;;
+[MOTEUR_3P_THERMIST,Motor 3P + thermi.]-insert MOTEUR_3P_THERMIST;\;;;
+[MOTEUR_DC,Motor DC]-insert MOTEUR_DC;\;;;
+[MOTEUR_PAS_A_PAS,Motor stap]-insert MOTEUR_PAS_A_PAS;\;;;
+[MOTEUR_LINEAIRE_2P,Motor lineaire 2P]-insert MOTEUR_LINEAIRE_2P;\;;;
+[EXCITATRICE,Bekrachtiging]-insert EXCITATRICE;\;;;
+[MOT_CC_EXC_SERIE,Motor CC Exc serie]-insert MOT_CC_EXC_SERIE;\;;;
+[MOT_CC_EXC_DER,Motor CC Exc omleiding]-insert MOT_CC_EXC_DER;\;;;
+[GEN_CC_EXC_COMP,Gener CC Exc composed]-insert GEN_CC_EXC_COMP;\;;;
+[CONV_ROT_CC_CC_EXC_COM_AIMANT,Omvormer CC_CC Exc com. magneet]-insert CONV_ROT_CC_CC_EXC_COM_AIMANT;\;;;
+[CONV_ROT_CC_CC_EXC_COM,Omvormer CC_CC Exc com.]-insert CONV_ROT_CC_CC_EXC_COM;\;;;
+[MOT_CA_COL_MONO_SERIE,Mot collect mono serie]-insert MOT_CA_COL_MONO_SERIE;\;;;
+[MOT_CA_COL_MONO_REPULS,Mot collect mono repuls]-insert MOT_CA_COL_MONO_REPULS;\;;;
+[MOT_CA_COL_3P_SERIE,Mot collect 3P serie]-insert MOT_CA_COL_3P_SERIE;\;;;
+[ALT_SYNCH_3P_AIMANT,ALt synch 3P perm magneet]-insert ALT_SYNCH_3P_AIMANT;\;;;
+[MOT_SYNCH_MONO,Mot synch mono]-insert MOT_SYNCH_MONO;\;;;
+[ALT_SYNCH_3P_INDUIT_Y,ALt synch 3P induit Y en neuter uit]-insert ALT_SYNCH_3P_INDUIT_Y;\;;;
+[ALT_SYNCH_3P_2B_PHASE,ALt synch 3P 2klem per faze]-insert ALT_SYNCH_3P_2B_PHASE;\;;;
+[COM_3P_EXC_DERIV,Commut 3P exc in omleiding]-insert COM_3P_EXC_DERIV;\;;;
+[MOT_ASYNCH_MONO_PH_AUX,Mot asynch mono faze aux en rotor in cc]-insert MOT_ASYNCH_MONO_PH_AUX;\;;;
+[MOT_ASYNCH_3P_ROTOR_BAG,Mot asynch 3P rotor met ringen]-insert MOT_ASYNCH_3P_ROTOR_BAG;\;;;
+[MOT_ASYNCH_3P_STY_DEM_AUTO,Mot asynch 3P stator Y starter auto rotor]-insert MOT_ASYNCH_3P_STY_DEM_AUTO;\;;;
+[MOT_LIN_ASYNCH_3P_1SENS,Mot lin asynch 3P 1richting]-insert MOT_LIN_ASYNCH_3P_1SENS;\;;;
+[TRAFO_2P,Trafo 2P]-insert TRAFO_2P;\;;;
+[TRAFO_2P_ECRAN,Trafo 2P scherm]-insert TRAFO_2P_ECRAN;\;;;
+[TRAFO_2PMULT_ECR,Trafo 2P multi scherm]-insert TRAFO_2PMULT_ECR;\;;;
+[TRAFO_2PMULT_IN_OUT_ECR,Trafo 2P multi In-Out scherm]-insert TRAFO_2PMULT_IN_OUT_ECR;\;;;
+[TRAFO_3P_ECRAN,Trafo 3P scherm]-insert TRAFO_3P_ECRAN;\;;;
+[TRAFO_3P_Y_Y,Trafo 3P Y-Y]-insert TRAFO_3P_Y_Y;\;;;
+[TRAFO_3P_Y_D,Trafo 3P Y-D]-insert TRAFO_3P_Y_D;\;;;
+[TRAFO_3P_D_Y,Trafo 3P D-Y]-insert TRAFO_3P_D_Y;\;;;
+[TRAFO_3P_D_D,Trafo 3P D-D]-insert TRAFO_3P_D_D;\;;;
+[AUTOTRAFO,Autotrafo]-insert AUTOTRAFO;\;;;
+[TRAFO_3_ENROUL,Trafo 3 wikkelingen]-insert TRAFO_3_ENROUL;\;;;
+[TRAFO_TI_1P_HORIZ,CT 1P horiz]-insert TRAFO_TI_1P_HORIZ;\;;;
+[TRAFO_TI_2P_HORIZ,CT 2P horiz]-insert TRAFO_TI_2P_HORIZ;\;;;
+[TRAFO_TI_3P_HORIZ,CT 3P horiz]-insert TRAFO_TI_3P_HORIZ;\;;;
+[TRAFO_TI_4P_HORIZ,CT 4P horiz]-insert TRAFO_TI_4P_HORIZ;\;;;
+[TRAFO_TI_1P_VERT,CT 1P vert]-insert TRAFO_TI_1P_VERT;\;;;
+[TRAFO_TI_2P_VERT,CT 2P vert]-insert TRAFO_TI_2P_VERT;\;;;
+[TRAFO_TI_3P_VERT,CT 3P vert]-insert TRAFO_TI_3P_VERT;\;;;
+[TRAFO_TI_4P_VERT,CT 4P vert]-insert TRAFO_TI_4P_VERT;\;;;
+[TR_ZIG_ZAG,Zig-Zag]-insert TR_ZIG_ZAG;\;;;
+[TR_D,Driehoek]-insert TR_D;\;;;
+[TR_Y,Ster]-insert TR_Y;\;;;
+[TR_4P_NEUTRE_SORTI,4P neutre uitgehaald]-insert TR_4P_NEUTRE_SORTI;\;;;
+[TR_6P_2BLE_D,6P dubbel Driehoek]-insert TR_6P_2BLE_D;\;;;
+[TR_6P_POLYGONE,6P Polygoon]-insert TR_6P_POLYGONE;\;;;
+[TR_6P_Y,6P Ster]-insert TR_6P_Y;\;;;
+[TR_D_OUVERT,Driehoek open]-insert TR_D_OUVERT;\;;;
+[TR_DIPHASE,Tweefazig]-insert TR_DIPHASE;\;;;
+[TR_T,T]-insert TR_T;\;;;
+[TR_V,V]-insert TR_V;\;;;
+[TR_Y_NEUTRE_SORTI,Ster neutre uitgehaald]-insert TR_Y_NEUTRE_SORTI;\;;;
+[TRAFO_3P_Dd0,Trafo Dd0]-insert TRAFO_3P_Dd0;\;;;
+[TRAFO_3P_Dd2,Trafo Dd2]-insert TRAFO_3P_Dd2;\;;;
+[TRAFO_3P_Dd4,Trafo Dd4]-insert TRAFO_3P_Dd4;\;;;
+[TRAFO_3P_Dd6,Trafo Dd6]-insert TRAFO_3P_Dd6;\;;;
+[TRAFO_3P_Dd8,Trafo Dd8]-insert TRAFO_3P_Dd8;\;;;
+[TRAFO_3P_Dd10,Trafo Dd10]-insert TRAFO_3P_Dd10;\;;;
+[TRAFO_3P_Dy1,Trafo Dy1]-insert TRAFO_3P_Dy1;\;;;
+[TRAFO_3P_Dy5,Trafo Dy5]-insert TRAFO_3P_Dy5;\;;;
+[TRAFO_3P_Dy7,Trafo Dy7]-insert TRAFO_3P_Dy7;\;;;
+[TRAFO_3P_Dy11,Trafo Dy11]-insert TRAFO_3P_Dy11;\;;;
+[TRAFO_3P_Dz0,Trafo Dz0]-insert TRAFO_3P_Dz0;\;;;
+[TRAFO_3P_Dz2,Trafo Dz2]-insert TRAFO_3P_Dz2;\;;;
+[TRAFO_3P_Dz4,Trafo Dz4]-insert TRAFO_3P_Dz4;\;;;
+[TRAFO_3P_Dz6,Trafo Dz6]-insert TRAFO_3P_Dz6;\;;;
+[TRAFO_3P_Dz8,Trafo Dz8]-insert TRAFO_3P_Dz8;\;;;
+[TRAFO_3P_Dz10,Trafo Dz10]-insert TRAFO_3P_Dz10;\;;;
+[TRAFO_3P_Ya0,Trafo Ya0]-insert TRAFO_3P_Ya0;\;;;
+[TRAFO_3P_Ya4,Trafo Ya4]-insert TRAFO_3P_Ya4;\;;;
+[TRAFO_3P_Ya8,Trafo Ya8]-insert TRAFO_3P_Ya8;\;;;
+[TRAFO_3P_Yd1,Trafo Yd1]-insert TRAFO_3P_Yd1;\;;;
+[TRAFO_3P_Yd5,Trafo Yd5]-insert TRAFO_3P_Yd5;\;;;
+[TRAFO_3P_Yd7,Trafo Yd7]-insert TRAFO_3P_Yd7;\;;;
+[TRAFO_3P_Yd11,Trafo Yd11]-insert TRAFO_3P_Yd11;\;;;
+[TRAFO_3P_Yy0,Trafo Yy0]-insert TRAFO_3P_Yy0;\;;;
+[TRAFO_3P_Yy6,Trafo Yy6]-insert TRAFO_3P_Yy6;\;;;
+[TRAFO_3P_Yz1,Trafo Yz1]-insert TRAFO_3P_Yz1;\;;;
+[TRAFO_3P_Yz5,Trafo Yz5]-insert TRAFO_3P_Yz5;\;;;
+[TRAFO_3P_Yz7,Trafo Yz7]-insert TRAFO_3P_Yz7;\;;;
+[TRAFO_3P_Yz11,Trafo Yz11]-insert TRAFO_3P_Yz11;\;;;
+
+**ELEC05
+[ELEC05,Batterijen - Dioden en Elektronika]
+[BATTERIE_HORIZ,Batterij horiz]-insert BATTERIE_HORIZ;\;;;
+[BATTERIE_VERT,Batterij vert]-insert BATTERIE_VERT;\;;;
+[BLOC_REDRESSEUR,Gelijkrichter 1]-insert BLOC_REDRESSEUR;\;;;
+[BLOC_REDRESSEUR2,Gelijkrichter 2]-insert BLOC_REDRESSEUR2;\;;;
+[BLOC_REDRESSEUR3,Gelijkrichter 3]-insert BLOC_REDRESSEUR3;\;;;
+[BLOC_REDRESSEUR3P,Gelijkrichter 3P]-insert BLOC_REDRESSEUR3P;\;;;
+[DIODE_BAS,Diode beneden]-insert DIODE_BAS;\;;;
+[DIODE_HAUT,Diode boven]-insert DIODE_HAUT;\;;;
+[DIODE_DROITE,Diode rechts]-insert DIODE_DROITE;\;;;
+[DIODE_GAUCHE,Diode links]-insert DIODE_GAUCHE;\;;;
+[OPTOC_HORIZ,Optoc horiz]-insert OPTOC_HORIZ;\;;;
+[OPTOC_HORIZ_MIR,Optoc horiz spiegel]-insert OPTOC_HORIZ_MIR;\;;;
+[OPTOC_VERT,Optoc vert]-insert OPTOC_VERT;\;;;
+[OPTOC_VERT_MIR,Optoc vert spiegel]-insert OPTOC_VERT_MIR;\;;;
+[PHOTOCEL_C_CHARN,Photocel wisselkontakt]-insert PHOTOCEL_C_CHARN;\;;;
+[PHOTODIODE_VERT,Photodiode vert]-insert PHOTODIODE_VERT;\;;;
+[PHOTORESIST_VERT,Photoweerstand vert]-insert PHOTORESIST_VERT;\;;;
+[PHOTOTRANSIST_NPN,Phototr NPN]-insert PHOTOTRANSIST_NPN;\;;;
+[PHOTOTRANSIST_PNP,Phototr PNP]-insert PHOTOTRANSIST_PNP;\;;;
+[TRANSISTOR_NPN,Transistor NPN]-insert TRANSISTOR_NPN;\;;;
+[TRANSISTOR_PNP,Transistor PNP]-insert TRANSISTOR_PNP;\;;;
+[THYRISTOR_TRIAC,Thyristor Triac]-insert THYRISTOR_TRIAC;\;;;
+
+**ELEC06A
+[ELEC06A,Contacten]
+[CONT_1NF,1 NG]-insert CONT_1NF;\;;;
+[CONT_1NO,1 NO]-insert CONT_1NO;\;;;
+[CONT_2NF,2 NG]-insert CONT_2NF;\;;;
+[CONT_2NO,2 NO]-insert CONT_2NO;\;;;
+[CONT_3NF,3 NG]-insert CONT_3NF;\;;;
+[CONT_3NO,3 NO]-insert CONT_3NO;\;;;
+[CONT_4NF,4 NG]-insert CONT_4NF;\;;;
+[CONT_4NO,4 NO]-insert CONT_4NO;\;;;
+[CONT_CHARNIERE,wisselkontakt]-insert CONT_CHARNIERE;\;;;
+[CONT_CHARN_MIROIR,wisselk spiegel beeld]-insert CONT_CHARN_MIROIR;\;;;
+[CONT_CHARN_REP_MIR,wisselk rust spiegel beeld]-insert CONT_CHARN_REP_MIR;\;;;
+[CONT_CHARN_TEMP_REP,wisselk vertraagd rust]-insert CONT_CHARN_TEMP_REP;\;;;
+[CONT_CHARN_TEMP_TRV,wisselk vertraagd werking]-insert CONT_CHARN_TEMP_TRV;\;;;
+[CONT_CHARN_TRAV_MIR,wisselk vertraagd werking spiegel beeld]-insert CONT_CHARN_TRAV_MIR;\;;;
+[BLOC_1NF_ET_REF,NG + ref]-insert BLOC_1NF_ET_REF;\;;;
+[BLOC_1NO_ET_REF,NO + ref]-insert BLOC_1NO_ET_REF;\;;;
+[BLOC_1NO_NF_ET_REF,NO-NG + ref]-insert BLOC_1NO_NF_ET_REF;\;;;
+[CONT_NF_OUV_ANTIC,NG vervroegde opening]-insert CONT_NF_OUV_ANTIC;\;;;
+[CONT_NF_OUV_TARDIV,NG vertraagde opening]-insert CONT_NF_OUV_TARDIV;\;;;
+[CONT_NF_RETOUR_AUTO,NG auto terugkeer]-insert CONT_NF_RETOUR_AUTO;\;;;
+[CONT_NF_TEMPO_REPOS,NG vertraagd rust]-insert CONT_NF_TEMPO_REPOS;\;;;
+[CONT_NF_TEMPO_TRAV,NG vertraagd werking]-insert CONT_NF_TEMPO_TRAV;\;;;
+[CONT_NF_TEMPO_REPTRAV,NG vertr werk rust]-insert CONT_NF_TEMPO_REPTRAV;\;;;
+[CONT_NF_THERM,NG thermisch]-insert CONT_NF_THERM;\;;;
+[CONT_NO_FERM_ANTIC,NO vervroegde sluiting]-insert CONT_NO_FERM_ANTIC;\;;;
+[CONT_NO_FERM_TARDIV,NO vertraagde sluiting]-insert CONT_NO_FERM_TARDIV;\;;;
+[CONT_NO_RETOUR_AUTO,NO auto terugkeer]-insert CONT_NO_RETOUR_AUTO;\;;;
+[CONT_NO_TEMPO_REPOS,NO tempo rust]-insert CONT_NO_TEMPO_REPOS;\;;;
+[CONT_NO_TEMPO_TRAV,NO vertraagd werking]-insert CONT_NO_TEMPO_TRAV;\;;;
+[CONT_NO_TEMPO_REPTRAV,NO vertr werk rust]-insert CONT_NO_TEMPO_REPTRAV;\;;;
+[CONT_NO_THERM,NO therm]-insert CONT_NO_THERM;\;;;
+
+**ELEC06B
+[ELEC06B,Reference Master-Slaaf]
+[REF_1CHARNIERE,1 wisselkontakt]-insert REF_1CHARNIERE;\;;;
+[REF_2CHARNIERE,2 wisselkontakt]-insert REF_2CHARNIERE;\;;;
+[REF_3CHARNIERE,3 wisselkontakt]-insert REF_3CHARNIERE;\;;;
+[REF_4CHARNIERE,4 wisselkontakt]-insert REF_4CHARNIERE;\;;;
+[REF_3PUISSANCE,3 vermogen]-insert REF_3PUISSANCE;\;;;
+[REF_3PUISS_1NO1NF,3 vermogen 1NO 1NG]-insert REF_3PUISS_1NO1NF;\;;;
+[REF_3PUISS_2NO2NF,3 vermogen 2NO 2NG]-insert REF_3PUISS_2NO2NF;\;;;
+[REF_4PUISSANCE,4 vermogen]-insert REF_4PUISSANCE;\;;;
+[REF_1NF,1 NG]-insert REF_1NF;\;;;
+[REF_1NO,1 NO]-insert REF_1NO;\;;;
+[REF_RELAIS_1NF,1NG]-insert REF_RELAIS_1NF;\;;;
+[REF_RELAIS_1NO,1NO]-insert REF_RELAIS_1NO;\;;;
+[REF_RELAIS_1NO1NF,1NO 1NG]-insert REF_RELAIS_1NO1NF;\;;;
+[REF_RELAIS_1NO3NF,1NO 3NG]-insert REF_RELAIS_1NO3NF;\;;;
+[REF_RELAIS_2NF,2NG]-insert REF_RELAIS_2NF;\;;;
+[REF_RELAIS_2NO,2NO]-insert REF_RELAIS_2NO;\;;;
+[REF_RELAIS_2NO2NF,2NO 2NG]-insert REF_RELAIS_2NO2NF;\;;;
+[REF_RELAIS_3NF,3NG]-insert REF_RELAIS_3NF;\;;;
+[REF_RELAIS_3NO,3NO]-insert REF_RELAIS_3NO;\;;;
+[REF_RELAIS_3NO1NF,3NO 1NG]-insert REF_RELAIS_3NO1NF;\;;;
+[REF_RELAIS_4NF,4NG]-insert REF_RELAIS_4NF;\;;;
+[REF_RELAIS_4NO,4NO]-insert REF_RELAIS_4NO;\;;;
+
+**ELEC07
+[ELEC07,Stopcontact en verlichting]
+[ECLAIRAGE_HORIZ,Verlicht horiz]-insert ECLAIRAGE_HORIZ;\;;;
+[ECLAIRAGE_VERT,Verlicht vert]-insert ECLAIRAGE_VERT;\;;;
+[PRISE_2P_PE_BAS,Stopcontact 2P+PE onder]-insert PRISE_2P+PE_BAS;\;;;
+[PRISE_2P_PE_HAUT,Stopc 2P+PE boven]-insert PRISE_2P+PE_HAUT;\;;;
+[PRISE_2P_PE_DR,Stopc 2P+PE rechts]-insert PRISE_2P+PE_DR;\;;;
+[PRISE_2P_PE_G,Stopc 2P+PE links]-insert PRISE_2P+PE_G;\;;;
+[PRISE_3P_PE_BAS,Stopc 3P+PE onder]-insert PRISE_3P+PE_BAS;\;;;
+[PRISE_3P_PE_HAUT,Stopc 3P+PE boven]-insert PRISE_3P+PE_HAUT;\;;;
+[PRISE_3P_PE_DR,Stopc 3P+PE rechts]-insert PRISE_3P+PE_DR;\;;;
+[PRISE_3P_PE_G,Stopc 3P+PE links]-insert PRISE_3P+PE_G;\;;;
+[PRISE_3P_N_PE_BAS,Stopc 3P+N+PE onder]-insert PRISE_3P+N+PE_BAS;\;;;
+[PRISE_3P_N_PE_HAUT,Stopc 3P+N+PE boven]-insert PRISE_3P+N+PE_HAUT;\;;;
+[PRISE_3P_N_PE_DR,Stopc 3P+N+PE rechts]-insert PRISE_3P+N+PE_DR;\;;;
+[PRISE_3P_N_PE_G,Stopc 3P+N+PE links]-insert PRISE_3P+N+PE_G;\;;;
+[FICHE_CONNECT_V_BAS,Stekker vert onder]-insert FICHE_CONNECT_V_BAS;\;;;
+[FICHE_CONNECT_V_HAUT,Stekker vert boven]-insert FICHE_CONNECT_V_HAUT;\;;;
+[FICHE_CONNECT_H_D,Stekker horiz rechts]-insert FICHE_CONNECT_H_D;\;;;
+[FICHE_CONNECT_H_G,Stekker horiz links]-insert FICHE_CONNECT_H_G;\;;;
+[PRISE_CONNECT_V_BAS,Stekker vert onder]-insert PRISE_CONNECT_V_BAS;\;;;
+[PRISE_CONNECT_V_HAUT,Stekker vert boven]-insert PRISE_CONNECT_V_HAUT;\;;;
+[PRISE_CONNECT_H_D,Stekker horiz rechts]-insert PRISE_CONNECT_H_D;\;;;
+[PRISE_CONNECT_H_G,Stekker horiz links]-insert PRISE_CONNECT_H_G;\;;;
+
+**ELEC08
+[ELEC08,Weerstanden en Thermocouple]
+[POT_AJUST_HOR,Potent regelbaar horiz]-insert POT_AJUST_HOR;\;;;
+[POT_AJUST_VERT,Potent regelbaar vert]-insert POT_AJUST_VERT;\;;;
+[POT_CONT_MOB_HOR,Potent cont beweegbaar horiz]-insert POT_CONT_MOB_HOR;\;;;
+[POT_CONT_MOB_VERT,Potent cont beweegbaar vert]-insert POT_CONT_MOB_VERT;\;;;
+[RESIST_CHAUF_HORIZ,Weerstand verwarming horiz]-insert RESIST_CHAUF_HORIZ;\;;;
+[RESIST_CHAUF_VERT,Weerstand verwarming vert]-insert RESIST_CHAUF_VERT;\;;;
+[RESIST_HORIZ,Weerstand horizontale]-insert RESIST_HORIZ;\;;;
+[RESIST_VERT,Weerstand vert]-insert RESIST_VERT;\;;;
+[RESIST_PT100_HORIZ,PT100 horiz]-insert RESIST_PT100_HORIZ;\;;;
+[RESIST_PT100_VERT,PT100 vert]-insert RESIST_PT100_VERT;\;;;
+[RESIST_VAR_HORIZ,Weerstand wisselend horiz]-insert RESIST_VAR_HORIZ;\;;;
+[RESIST_VAR_HORIZ2,Weerstand wisselend horiz 2]-insert RESIST_VAR_HORIZ2;\;;;
+[RESIST_VAR_VERT,Weerstand wisselend vert]-insert RESIST_VAR_VERT;\;;;
+[RESIST_VAR_VERT2,Weerstand wisselend vert2]-insert RESIST_VAR_VERT2;\;;;
+[THERMOC_HORIZ,Thermocouple horiz]-insert THERMOC_HORIZ;\;;;
+[THERMOC_VERT,Thermocouple vert]-insert THERMOC_VERT;\;;;
+
+**ELEC09
+[ELEC09,Condensatoren]
+[CONDENSATEUR_HORIZ,Condens horiz]-insert CONDENSATEUR_HORIZ;\;;;
+[CONDENSATEUR_VERT,Condens vert]-insert CONDENSATEUR_VERT;\;;;
+[CONDENS_AJUST_PREDETERM_HORIZ,Condens voorgestelde waarde horiz]-insert CONDENS_AJUST_PREDETERM_HORIZ;\;;;
+[CONDENS_AJUST_PREDETERM_VERT,Condens voorgestelde waarde vert]-insert CONDENS_AJUST_PREDETERM_VERT;\;;;
+[CONDENS_POLARISE_HORIZ,Condens gepolariseerd horiz]-insert CONDENS_POLARISE_HORIZ;\;;;
+[CONDENS_POLARISE_VERT,Condens gepolariseerd vert]-insert CONDENS_POLARISE_VERT;\;;;
+[CONDENS_VARIABLE_HORIZ,Condens wisselend horiz]-insert CONDENS_VARIABLE_HORIZ;\;;;
+[CONDENS_VARIABLE_VERT,Condens wisselend vert]-insert CONDENS_VARIABLE_VERT;\;;;
+
+**ELEC10
+[ELEC10,Bobijnen en Wikkelingen]
+[BOBIN_MOTEUR_3P_D,3P D]-insert BOBIN_MOTEUR_3P_D;\;;;
+[BOBIN_MOTEUR_3P_Y,3P Y]-insert BOBIN_MOTEUR_3P_Y;\;;;
+[INDUCTANCE2_HORIZ,Voorkeur vorm horiz]-insert INDUCTANCE2_HORIZ;\;;;
+[INDUCTANCE2_VERT,Voorkeur vorm vert]-insert INDUCTANCE2_VERT;\;;;
+[INDUCTANCE_HORIZ,Vorm 2 horiz]-insert INDUCTANCE_HORIZ;\;;;
+[INDUCTANCE_VERT,Vorm 2 vert]-insert INDUCTANCE_VERT;\;;;
+[INDUCTANCE_NOYAU_MAGN_HORIZ,Magnet. kern horiz]-insert INDUCTANCE_NOYAU_MAGN_HORIZ;\;;;
+[INDUCTANCE_NOYAU_MAGN_VERT,Magnet. kern vert]-insert INDUCTANCE_NOYAU_MAGN_VERT;\;;;
+[INDUCT_NOYAU_MAGN_ENTR_HORIZ,Magnet. kern entrefer horiz]-insert INDUCT_NOYAU_MAGN_ENTR_HORIZ;\;;;
+[INDUCT_NOYAU_MAGN_ENTR_VERT,Magnet. kern entrefer vert]-insert INDUCT_NOYAU_MAGN_ENTR_VERT;\;;;
+
+**ELEC11
+[ELEC11,Relais en tijdrelais]
+[MINUT_IMPULSION,Tijdrelais impuls]-insert MINUT_IMPULSION;\;;;
+[MINUT_MULTIF,Tijdrelais multi-funktie]-insert MINUT_MULTIF;\;;;
+[MINUT_REPOS,Tijdrelais rust]-insert MINUT_REPOS;\;;;
+[MINUT_REPOS_TRAV,Tijdrelais rust-werking]-insert MINUT_REPOS_TRAV;\;;;
+[MINUT_TRAVAIL,Tijdrelais werking]-insert MINUT_TRAVAIL;\;;;
+[RELAIS,Relais]-insert RELAIS;\;;;
+[RELAIS_BARRE,Rel schuine streep]-insert RELAIS_BARRE;\;;;
+[RELAIS_ELECTROVANNE,Electroventiel]-insert RELAIS_ELECTROVANNE;\;;;
+[RELAIS_MAX_TENSION,Rel max spanning]-insert RELAIS_MAX_TENSION;\;;;
+[RELAIS_MIN_TENSION,Rel min spanning]-insert RELAIS_MIN_TENSION;\;;;
+[RELAIS_POLARISE,Rel polarise]-insert RELAIS_POLARISE;\;;;
+[RELAIS_PRES_TENSION,Rel spanning aanwezigheid]-insert RELAIS_PRES_TENSION;\;;;
+[RELAIS_VER_MECAN,Rel mecan. vergrendeld]-insert RELAIS_VER_MECAN;\;;;
+[RELAIS_RAPIDE,Rel snel]-insert RELAIS_RAPIDE;\;;;
+[RELAIS_INSENS_CA,Rel ongevoelig AC]-insert RELAIS_INSENS_CA;\;;;
+[RELAIS_CA,Rel CA]-insert RELAIS_CA;\;;;
+[RELAIS_RESON_MECA,Rel resonance mecan]-insert RELAIS_RESON_MECA;\;;;
+[RELAIS_REMANENT,Rel remanent]-insert RELAIS_REMANENT;\;;;
+[TELERUPTEUR,Teleruptor]-insert TELERUPTEUR;\;;;
+
+**ELEC12A
+[ELEC12A,Smeltzekeringen]
+[FUSIBLE_1P,1P]-insert FUSIBLE_1P;\;;;
+[FUSIBLE_2P,2P]-insert FUSIBLE_2P;\;;;
+[FUSIBLE_3P,3P]-insert FUSIBLE_3P;\;;;
+[FUSIBLE_4P,4P]-insert FUSIBLE_4P;\;;;
+[FUSIBLE_INT_1P,Schakelaar 1P]-insert FUSIBLE_INT_1P;\;;;
+[FUSIBLE_INT_2P,Schakelaar 2P]-insert FUSIBLE_INT_2P;\;;;
+[FUSIBLE_INT_3P,Schakelaar 3P]-insert FUSIBLE_INT_3P;\;;;
+[FUSIBLE_INT_4P,Schakelaar 4P]-insert FUSIBLE_INT_4P;\;;;
+[FUS_INT_SECT_1P,Last-Scheider 1P]-insert FUS_INT_SECT_1P;\;;;
+[FUS_INT_SECT_2P,Last-Scheider 2P]-insert FUS_INT_SECT_2P;\;;;
+[FUS_INT_SECT_3P,Last-Scheider 3P]-insert FUS_INT_SECT_3P;\;;;
+[FUS_INT_SECT_4P,Last-Scheider 4P]-insert FUS_INT_SECT_4P;\;;;
+[FUS_INT_SECT_3P_N,Last-Scheider 3P+N]-insert FUS_INT_SECT_3P_N;\;;;
+[FUS_INT_SECT_2BLE_1P,Last-2Scheider 1P]-insert FUS_INT_SECT_2BLE_1P;\;;;
+[FUS_INT_SECT_2BLE_3P,Last-2Scheider 3P]-insert FUS_INT_SECT_2BLE_3P;\;;;
+[FUS_INT_SECT_2BLE_3P_N,Last-2Scheider 3P+N]-insert FUS_INT_SECT_2BLE_3P_N;\;;;
+[FUS_SECT_1P,Scheider 1P]-insert FUS_SECT_1P;\;;;
+[FUS_SECT_2P,Scheider 2P]-insert FUS_SECT_2P;\;;;
+[FUS_SECT_3P,Scheider 3P]-insert FUS_SECT_3P;\;;;
+[FUS_SECT_4P,Scheider 4P]-insert FUS_SECT_4P;\;;;
+[FUS_SECT_3P_N,Scheider 3P+N]-insert FUS_SECT_3P_N;\;;;
+[FUS_PERC_1P,Fus slagpin 1P]-insert FUS_PERC_1P;\;;;
+
+**ELEC12B
+[ELEC12B,Scheider]
+[INT_1P,Schakelaar 1P]-insert INT_1P;\;;;
+[INT_2P,Schakelaar 2P]-insert INT_2P;\;;;
+[INT_3P,Schakelaar 3P]-insert INT_3P;\;;;
+[INT_4P,Schakelaar 4P]-insert INT_4P;\;;;
+[INT_SECT_1P,Last-Schakelaar 1P]-insert INT_SECT_1P;\;;;
+[INT_SECT_2P,Last-Schakelaar 2P]-insert INT_SECT_2P;\;;;
+[INT_SECT_3P,Last-Schakelaar 3P]-insert INT_SECT_3P;\;;;
+[INT_SECT_4P,Last-Schakelaar 4P]-insert INT_SECT_4P;\;;;
+[INT_SECT_3P_N,Last-Schakelaar 3P+N]-insert INT_SECT_3P_N;\;;;
+[INT_SECT_6P,Last-Schakelaar 6P]-insert INT_SECT_6P;\;;;
+[SECTIONNEUR_1P,Scheider 1P]-insert SECTIONNEUR_1P;\;;;
+[SECTIONNEUR_2P,Scheider 2P]-insert SECTIONNEUR_2P;\;;;
+[SECTIONNEUR_3P,Scheider 3P]-insert SECTIONNEUR_3P;\;;;
+[SECTIONNEUR_4P,Scheider 4P]-insert SECTIONNEUR_4P;\;;;
+[COUPE_TERRE_NF,Aard scheider NG]-insert COUPE_TERRE_NF;\;;;
+[COUPE_TERRE_NO,Aard scheider NO]-insert COUPE_TERRE_NO;\;;;
+
+**ELEC13
+[ELEC13,Omvormer]
+[CONVERTIS_AC_DC,Omvormer AC-DC]-insert CONVERTIS_AC_DC;\;;;
+[CONVERTIS_AC_DC_3P,Omvormer AC-DC 3P]-insert CONVERTIS_AC_DC_3P;\;;;
+[CONVERTIS_DC_DC,Omvormer DC-DC]-insert CONVERTIS_DC_DC;\;;;
+[CONVERTIS_GENERAL_2P,Omvormer 2P algemeen]-insert CONVERTIS_GENERAL_2P;\;;;
+[CONVERTIS_GENERAL_3P,Omvormer 3P algemeen]-insert CONVERTIS_GENERAL_3P;\;;;
+[CONVERTIS_GENERAL_4P,Omvormer 3P_PE algemeen]-insert CONVERTIS_GENERAL_4P;\;;;
+[ECLATEUR,Bliksemafleider]-insert ECLATEUR;\;;;
+[FILTRE_RESEAU_2P,Net filter 2P]-insert FILTRE_RESEAU_2P;\;;;
+[FILTRE_RESEAU_3P,Net filter 3P]-insert FILTRE_RESEAU_3P;\;;;
+[ONDULEUR,Omvormer]-insert ONDULEUR;\;;;
+[PARAFOUDRE,Bliksemafleider]-insert PARAFOUDRE;\;;;
+[PARAFOUDRE_2P,Bliksemafleider 2P]-insert PARAFOUDRE_2P;\;;;
+[PARAFOUDRE_3P,Bliksemafleider 3P]-insert PARAFOUDRE_3P;\;;;
+[PARAFOUDRE_4P,Bliksemafleider 4P]-insert PARAFOUDRE_4P;\;;;
+[PARAFOUDRE_HORIZ,Bliksemafleider horiz]-insert PARAFOUDRE_HORIZ;\;;;
+[PARAFOUDRE_2P_HORIZ,Bliksemafleider 2P horiz]-insert PARAFOUDRE_2P_HORIZ;\;;;
+[PARAFOUDRE_3P_HORIZ,Bliksemafleider 3P horiz]-insert PARAFOUDRE_3P_HORIZ;\;;;
+[PARAFOUDRE_4P_HORIZ,Bliksemafleider 4P horiz]-insert PARAFOUDRE_4P_HORIZ;\;;;
+
+**ELEC14
+[ELEC14,Signalisatie - Meting - Telling]
+[AFFICH_LED_3_CHIFR,Aanduider 3 digits]-insert AFFICH_LED_3_CHIFR;\;;;
+[AFFICH_LED_4_CHIFR,Aanduider 4 digits]-insert AFFICH_LED_4_CHIFR;\;;;
+[AFFICH_LED_5_CHIFR,Aanduider 5 digits]-insert AFFICH_LED_5_CHIFR;\;;;
+[AMPEREHEUREMETRE,Am-uur meter]-insert AMPEREHEUREMETRE;\;;;
+[APPAREIL_MESURE,Meting apparaat]-insert APPAREIL_MESURE;\;;;
+[AP_MES_VOLTMETRE,Voltmeter]-insert AP_MES_VOLTMETRE;\;;;
+[AP_MES_AMP_REACTIF,Meting amp. reactiev]-insert AP_MES_AMP_REACTIF;\;;;
+[AP_MES_PUIS_MAX_ACTIVE,Meting Pmax actiev]-insert AP_MES_PUIS_MAX_ACTIVE;\;;;
+[AP_MES_VAR,Meting varmeter]-insert AP_MES_VAR;\;;;
+[AP_MES_COS_PHI,Meting cos phimeter]-insert AP_MES_COS_PHI;\;;;
+[AP_MES_DEPHASAGE,Meting fazen]-insert AP_MES_DEPHASAGE;\;;;
+[AP_MES_FREQUENCE,Meting frequenz]-insert AP_MES_FREQUENCE;\;;;
+[AP_MES_SYNCHROSCOPE,Meting synchroscoop]-insert AP_MES_SYNCHROSCOPE;\;;;
+[AP_MES_ONDE,Meting golfmeter]-insert AP_MES_ONDE;\;;;
+[AP_MES_OSCILLO,Oscilloscoop]-insert AP_MES_OSCILLO;\;;;
+[AP_MES_VOLTM_DIF,Voltmeter differ]-insert AP_MES_VOLTM_DIF;\;;;
+[AP_MES_GALVAN,Galvanometer]-insert AP_MES_GALVAN;\;;;
+[AP_MES_SALIN,Zoutmeter]-insert AP_MES_SALIN;\;;;
+[AP_MES_THERMOMETRE,Thermometer]-insert AP_MES_THERMOMETRE;\;;;
+[AP_MES_TACHYM,Tachymeter]-insert AP_MES_TACHYM;\;;;
+[ENREG_W,Opname Energie]-insert ENREG_W;\;;;
+[ENREG_W_VAR,Opname Watt varmètre]-insert ENREG_W_VAR;\;;;
+[ENREG_OSCILLO,Oscillographe]-insert ENREG_OSCILLO;\;;;
+[ENREG_H,Uur teller]-insert ENREG_H;\;;;
+[COMPTEUR_AH,Opname Ampereuur]-insert COMPTEUR_AH;\;;;
+[COMPTEUR_WH,Opname actieve energie]-insert COMPTEUR_WH;\;;;
+[COMPTEUR_WH_1SENS,Opname energie 1 richting]-insert COMPTEUR_WH_1SENS;\;;;
+[COMPTEUR_WH_RECU_JDB,Opname energie van barenstel]-insert COMPTEUR_WH_RECU_JDB;\;;;
+[COMPTEUR_WH_DONNE_JDB,Opname energie naar barenstel]-insert COMPTEUR_WH_DONNE_JDB;\;;;
+[COMPTEUR_WH_2SENS,Opname energie in out]-insert COMPTEUR_WH_2SENS;\;;;
+[COMPTEUR_WH_DOUBLE_TARIF,Opname energie dbl tariev]-insert COMPTEUR_WH_DOUBLE_TARIF;\;;;
+[COMPTEUR_WH_PMAX,Opname energie vermogen overschrijd]-insert COMPTEUR_WH_PMAX;\;;;
+[COMPTEUR_WH_EMETTEUR,Opname energie met zender]-insert COMPTEUR_WH_EMETTEUR;\;;;
+[COMPTEUR_WH_REPETEUR,Opname energie]-insert COMPTEUR_WH_REPETEUR;\;;;
+[COMPTEUR_WH_REPET_IMPR,Opname energie printer]-insert COMPTEUR_WH_REPET_IMPR;\;;;
+[COMPTEUR_WH_PMAX_MOYEN_IND,Opname energie aand. max Pgemiddeld]-insert COMPTEUR_WH_PMAX_MOYEN_IND;\;;;
+[COMPTEUR_WH_PMAX_MOYEN,Opname energie opname max Pgemiddeld]-insert COMPTEUR_WH_PMAX_MOYEN;\;;;
+[COMPTEUR_VARH,Opname energie reactiev]-insert COMPTEUR_VARH;\;;;
+[COMPTEUR_HORAIRE,Uur teller]-insert COMPTEUR_HORAIRE;\;;;
+[COMPTEUR_IMPULSION,Impuls teller]-insert COMPTEUR_IMPULSION;\;;;
+[COMPT_RESET_ELEC,Teller met elektrische reset]-insert COMPT_RESET_ELEC;\;;;
+[COMPT_RESET_MANU,Teller met manuele reset]-insert COMPT_RESET_MANU;\;;;
+
+**ELEC15
+[ELEC15,Lampen en Bellen]
+[KLAXON_HORIZ,Claxon horiz]-insert KLAXON_HORIZ;\;;;
+[KLAXON_VERT,Claxon vert]-insert KLAXON_VERT;\;;;
+[LED_BAS,LED naar beneden]-insert LED_BAS;\;;;
+[LED_HAUT,LED naar boven]-insert LED_HAUT;\;;;
+[LED_DROITE,LED naar rechts]-insert LED_DROITE;\;;;
+[LED_GAUCHE,LED naar links]-insert LED_GAUCHE;\;;;
+[RONFLEUR_HORIZ,Zoemer horiz]-insert RONFLEUR_HORIZ;\;;;
+[RONFLEUR_VERT,Zoemer vert]-insert RONFLEUR_VERT;\;;;
+[SONNERIE_HORIZ,Bel horiz]-insert SONNERIE_HORIZ;\;;;
+[SONNERIE_VERT,Bel vert]-insert SONNERIE_VERT;\;;;
+[SONNER_1COUP_HORIZ,Bel 1 slag horiz]-insert SONNER_1COUP_HORIZ;\;;;
+[SONNER_1COUP_VERT,Bel 1 slag vert]-insert SONNER_1COUP_VERT;\;;;
+[SIRENE_HORIZ,Sirene horiz]-insert SIRENE_HORIZ;\;;;
+[SIRENE_VERT,Sirene vert]-insert SIRENE_VERT;\;;;
+[SIFFLET_HORIZ,Fluit horiz]-insert SIFFLET_HORIZ;\;;;
+[SIFFLET_VERT,Fluit vert]-insert SIFFLET_VERT;\;;;
+[VOYANT_CLIGN_HOR,Lamp verklikker horiz]-insert VOYANT_CLIGN_HOR;\;;;
+[VOYANT_CLIGN_VERT,Lamp verklikker vert]-insert VOYANT_CLIGN_VERT;\;;;
+[VOYANT_HORIZ,Lamp horiz]-insert VOYANT_HORIZ;\;;;
+[VOYANT_VERT,Lamp vert]-insert VOYANT_VERT;\;;;
+[VOYANT_LED_BAS,Aanduider LED beneden]-insert VOYANT_LED_BAS;\;;;
+[VOYANT_LED_HAUT,Aanduider LED boven]-insert VOYANT_LED_HAUT;\;;;
+[VOYANT_LED_DR,Aanduider LED rechts]-insert VOYANT_LED_DR;\;;;
+[VOYANT_LED_G,Aanduider LED links]-insert VOYANT_LED_G;\;;;
+[VOYANT_NEON_HORIZ,Aanduider neon horiz]-insert VOYANT_NEON_HORIZ;\;;;
+[VOYANT_NEON_VERT,Aanduider neon vert]-insert VOYANT_NEON_VERT;\;;;
+[VOYANT_TRANSF_HOR,Aanduider trafo horiz]-insert VOYANT_TRANSF_HOR;\;;;
+[VOYANT_TRANSF_VERT,Aanduider trafo vert]-insert VOYANT_TRANSF_VERT;\;;;
+[VOYANT_ELECTROMECA_HORIZ,electromeca horiz]-insert VOYANT_ELECTROMECA_HORIZ;\;;;
+[VOYANT_ELECTROMECA_VERT,electromeca vert]-insert VOYANT_ELECTROMECA_VERT;\;;;
+[VOYANT_ELECTROMECA_2POS_HORIZ,electromeca 2 std horiz]-insert VOYANT_ELECTROMECA_2POS_HORIZ;\;;;
+[VOYANT_ELECTROMECA_2POS_VERT,electromeca 2 std vert]-insert VOYANT_ELECTROMECA_2POS_VERT;\;;;
+
+**ELEC16
+[ELEC16,Contactoren]
+[CONTACTEUR_1P,Contactor 1P]-insert CONTACTEUR_1P;\;;;
+[CONTACTEUR_2P,Contactor 2P]-insert CONTACTEUR_2P;\;;;
+[CONTACTEUR_3P,Contactor 3P]-insert CONTACTEUR_3P;\;;;
+[CONTACTEUR_4P,Contactor 4P]-insert CONTACTEUR_4P;\;;;
+[CONTACTEUR_3P_VERR,Cont 3P mecan. vergrendeld]-insert CONTACTEUR_3P_VERR;\;;;
+[CONTACTEUR_4P_VERR,Cont 4P mecan. vergrendeld]-insert CONTACTEUR_4P_VERR;\;;;
+[RUPTEUR_1P,Ruptor 1P]-insert RUPTEUR_1P;\;;;
+[RUPTEUR_2P,Ruptor 2P]-insert RUPTEUR_2P;\;;;
+[RUPTEUR_3P,Ruptor 3P]-insert RUPTEUR_3P;\;;;
+[RUPTEUR_4P,Ruptor 4P]-insert RUPTEUR_4P;\;;;
+
+**ELEC17
+[ELEC17,Automaten]
+[DISJ_MOD_1P,Modulaire 1P]-insert DISJ_MOD_1P;\;;;
+[DISJ_MOD_2P,Modulaire 2P]-insert DISJ_MOD_2P;\;;;
+[DISJ_MOD_3P,Modulaire 3P]-insert DISJ_MOD_3P;\;;;
+[DISJ_MOD_4P,Modulaire 4P]-insert DISJ_MOD_4P;\;;;
+[DISJ_MAGN_TH_1P,Magn-therm 1P]-insert DISJ_MAGN_TH_1P;\;;;
+[DISJ_MAGN_TH_2P,Magn-therm 2P]-insert DISJ_MAGN_TH_2P;\;;;
+[DISJ_MAGN_TH_3P,Magn-therm 3P]-insert DISJ_MAGN_TH_3P;\;;;
+[DISJ_MAGNTH_3P_NONF,Magn-therm 3Vermogen + 1NO 1NG]-insert DISJ_MAGNTH_3P_NONF;\;;;
+[DISJ_ADD_LIMITEUR_3P,Add beperker 3P]-insert DISJ_ADD_LIMITEUR_3P;\;;;
+[DISJ_C60N_MAGNTH_1P,C60N Magn-th 1P]-insert DISJ_C60N_MAGNTH_1P;\;;;
+[DISJ_C60N_MAGNTH_2P,C60N Magn-th 2P]-insert DISJ_C60N_MAGNTH_2P;\;;;
+[DISJ_C60N_MAGNTH_3P,C60N Magn-th 3P]-insert DISJ_C60N_MAGNTH_3P;\;;;
+[DISJ_C60N_MAGNTH_4P,C60N Magn-th 4P]-insert DISJ_C60N_MAGNTH_4P;\;;;
+[DISJ_SECT_1P,Disj.Scheider 1P]-insert DISJ_SECT_1P;\;;;
+[DISJ_SECT_2P,Disj.Scheider 2P]-insert DISJ_SECT_2P;\;;;
+[DISJ_SECT_3P,Disj.Scheider 3P]-insert DISJ_SECT_3P;\;;;
+[DISJ_SECT_4P,Disj.Scheider 4P]-insert DISJ_SECT_4P;\;;;
+[DISJ_C60L_MAGNTH_1P,C60L Magn-th 1P]-insert DISJ_C60L_MAGNTH_1P;\;;;
+[DISJ_C60L_MAGNTH_2P,C60L Magn-th 2P]-insert DISJ_C60L_MAGNTH_2P;\;;;
+[DISJ_C60L_MAGNTH_3P,C60L Magn-th 3P]-insert DISJ_C60L_MAGNTH_3P;\;;;
+[DISJ_C60L_MAGNTH_4P,C60L Magn-th 4P]-insert DISJ_C60L_MAGNTH_4P;\;;;
+[DECL_THERM_LRD_3P,Therm overbel LRD 3P]-insert DECL_THERM_LRD_3P;\;;;
+[DISJ_MOT_MAGN_2P,Motor Magn 2P]-insert DISJ_MOT_MAGN_2P;\;;;
+[DISJ_MOT_MAGN_3P,Motor Magn 3P]-insert DISJ_MOT_MAGN_3P;\;;;
+[DISJ_MOT_SECTMAGN2P,Motor Sheider Magn 2P]-insert DISJ_MOT_SECTMAGN2P;\;;;
+[DISJ_MOT_SECTMAGN3P,Motor Scheider Magn 3P]-insert DISJ_MOT_SECTMAGN3P;\;;;
+[DISJ_DIF_MOD_PN,Differ mod P+N]-insert DISJ_DIF_MOD_PN;\;;;
+[DISJ_DIF_MOD_2P,Differ mod 2P]-insert DISJ_DIF_MOD_2P;\;;;
+[DISJ_DIF_MOD_3P,Differ mod 3P]-insert DISJ_DIF_MOD_3P;\;;;
+[DISJ_DIF_MOD_4P,Differ mod 4P]-insert DISJ_DIF_MOD_4P;\;;;
+[DISJ_DIF_SECT_MOD_PN,Dif schak mod P+N]-insert DISJ_DIF_SECT_MOD_PN;\;;;
+[DISJ_DIF_SECT_MOD_2P,Dif schak mod 2P]-insert DISJ_DIF_SECT_MOD_2P;\;;;
+[DISJ_DIF_SECT_MOD_3P,Dif schak mod 3P]-insert DISJ_DIF_SECT_MOD_3P;\;;;
+[DISJ_DIF_SECT_MOD_4P,Dif schak mod 4P]-insert DISJ_DIF_SECT_MOD_4P;\;;;
+[DISJ_DIF_2P,Differ 2P]-insert DISJ_DIF_2P;\;;;
+[DISJ_DIF_3P,Differ 3P]-insert DISJ_DIF_3P;\;;;
+[DISJ_DIF_4P,Differ 4P]-insert DISJ_DIF_4P;\;;;
+[DISJ_DIF_2P_VIGI_NC100,2P Vigi NC100]-insert DISJ_DIF_2P_VIGI_NC100;\;;;
+[DISJ_DIF_3P_VIGI_NC100,3P Vigi NC100]-insert DISJ_DIF_3P_VIGI_NC100;\;;;
+[DISJ_DIF_4P_VIGI_NC100,4P Vigi NC100]-insert DISJ_DIF_4P_VIGI_NC100;\;;;
+
+**ELEC18
+[ELEC18,Dozen]
+[BOITE_3x02,3lijn 2colom]-insert BOITE_3x02;\;;;
+[BOITE_3x03,3lijn 3colom]-insert BOITE_3x03;\;;;
+[BOITE_3x04,3lijn 4colom]-insert BOITE_3x04;\;;;
+[BOITE_3x05,3lijn 5colom]-insert BOITE_3x05;\;;;
+[BOITE_3x06,3lijn 6colom]-insert BOITE_3x06;\;;;
+[BOITE_3x07,3lijn 7colom]-insert BOITE_3x07;\;;;
+[BOITE_3x08,3lijn 8colom]-insert BOITE_3x08;\;;;
+[BOITE_3x09,3lijn 9colom]-insert BOITE_3x09;\;;;
+[BOITE_3x10,3lijn 10colom]-insert BOITE_3x10;\;;;
+[BOITE_3x11,3lijn 11colom]-insert BOITE_3x11;\;;;
+[BOITE_5x02,5lijn 2colom]-insert BOITE_5x02;\;;;
+[BOITE_5x03,5lijn 3colom]-insert BOITE_5x03;\;;;
+[BOITE_5x04,5lijn 4colom]-insert BOITE_5x04;\;;;
+[BOITE_5x05,5lijn 5colom]-insert BOITE_5x05;\;;;
+[BOITE_5x06,5lijn 6colom]-insert BOITE_5x06;\;;;
+[BOITE_5x07,5lijn 7colom]-insert BOITE_5x07;\;;;
+[BOITE_5x08,5lijn 8colom]-insert BOITE_5x08;\;;;
+[BOITE_5x09,5lijn 9colom]-insert BOITE_3x09;\;;;
+[BOITE_5x10,5lijn 10colom]-insert BOITE_5x10;\;;;
+[BOITE_5x11,5lijn 11colom]-insert BOITE_5x11;\;;;
+
+**ELEC19
+[ELEC19,Automatizering]
+[PLC_16DI_16DO,16DI 16DO]-insert PLC_16DI_16DO;\;;;
+[PLC_16DO_RELAIS,16DO met relais]-insert PLC_16DO_RELAIS;\;;;
+[PLC_1AI_2FILS,1AI 2 draden]-insert PLC_1AI_2FILS;\;;;
+[PLC_1AI_4FILS,1AI 4 draden]-insert PLC_1AI_4FILS;\;;;
+[PLC_1AI_5FILS,1AI 5 draden]-insert PLC_1AI_5FILS;\;;;
+[PLC_1AO_2FILS,1AO 2 draden]-insert PLC_1AO_2FILS;\;;;
+[PLC_1AO_4FILS,1AO 4 draden]-insert PLC_1AO_4FILS;\;;;
+[PLC_1AO_5FILS,1AO 5 draden]-insert PLC_1AO_5FILS;\;;;
+[PLC_1DI,1DI]-insert PLC_1DI;\;;;
+[PLC_1DO,1DO]-insert PLC_1DO;\;;;
+[PLC_1DO_RELAIS,1DO met relais]-insert PLC_1DO_RELAIS;\;;;
+[PLC_8DI_8DO,8DI 8DO]-insert PLC_8DI_8DO;\;;;
+[PLC_8DO_RELAIS,8DO met relais]-insert PLC_8DO_RELAIS;\;;;
+[PLC_DI_ALIM,DI Voeding]-insert PLC_DI_ALIM;\;;;
+[PLC_DO_ALIM,DO Voeding]-insert PLC_DO_ALIM;\;;;
+
+**ELEC20A
+[ELEC20A,Kabel rep horiz]
+[REP_CABLE_H01,1 draad]-insert REP_CABLE_H01;\;;;
+[REP_CABLE_H02,2 draden]-insert REP_CABLE_H02;\;;;
+[REP_CABLE_H03,3 draden]-insert REP_CABLE_H03;\;;;
+[REP_CABLE_H04,4 draden]-insert REP_CABLE_H04;\;;;
+[REP_CABLE_H05,5 draden]-insert REP_CABLE_H05;\;;;
+[REP_CABLE_H06,6 draden]-insert REP_CABLE_H06;\;;;
+[REP_CABLE_H07,7 draden]-insert REP_CABLE_H07;\;;;
+[REP_CABLE_H08,8 draden]-insert REP_CABLE_H08;\;;;
+[REP_CABLE_H09,9 draden]-insert REP_CABLE_H09;\;;;
+[REP_CABLE_H10,10 draden]-insert REP_CABLE_H10;\;;;
+[REP_CABLE_H11,11draden]-insert REP_CABLE_H11;\;;;
+[REP_CABLE_H12,12 draden]-insert REP_CABLE_H12;\;;;
+[REP_CABLE_H13,13 draden]-insert REP_CABLE_H13;\;;;
+[REP_CABLE_H14,14 draden]-insert REP_CABLE_H14;\;;;
+[REP_CABLE_H15,15 draden]-insert REP_CABLE_H15;\;;;
+[REP_CABLE_H16,16 draden]-insert REP_CABLE_H16;\;;;
+[REP_CABLE_H17,17 draden]-insert REP_CABLE_H17;\;;;
+[REP_CABLE_H18,18 draden]-insert REP_CABLE_H18;\;;;
+[REP_CABLE_H19,19 draden]-insert REP_CABLE_H19;\;;;
+[REP_CABLE_H20,20 draden]-insert REP_CABLE_H20;\;;;
+[CONDUCTEUR1_SS_ECRAN,1 draad onder scherm]-insert CONDUCTEUR1_SS_ECRAN;\;;;
+[CONDUCTEUR2_SS_ECRAN,2 draden onder scherm]-insert CONDUCTEUR2_SS_ECRAN;\;;;
+[CONDUCTEUR3_SS_ECRAN,3 draden onder scherm]-insert CONDUCTEUR3_SS_ECRAN;\;;;
+[CONDUCTEUR4_SS_ECRAN,4 draden onder scherm]-insert CONDUCTEUR4_SS_ECRAN;\;;;
+[CONDUCTEUR5_SS_ECRAN,5 draden onder scherm]-insert CONDUCTEUR5_SS_ECRAN;\;;;
+[CONDUCTEUR6_SS_ECRAN,6 draden onder scherm]-insert CONDUCTEUR6_SS_ECRAN;\;;;
+[CONDUCTEUR7_SS_ECRAN,7 draden onder scherm]-insert CONDUCTEUR7_SS_ECRAN;\;;;
+[CONDUCTEUR8_SS_ECRAN,8 draden onder scherm]-insert CONDUCTEUR8_SS_ECRAN;\;;;
+[CONDUCTEUR9_SS_ECRAN,9 draden onder scherm]-insert CONDUCTEUR9_SS_ECRAN;\;;;
+[CONDUCTEUR10_SS_ECRAN,10 draden onder scherm]-insert CONDUCTEUR10_SS_ECRAN;\;;;
+[CONDUCTEUR2_TORSADE,2 draden gedraaid]-insert CONDUCTEUR2_TORSADE;\;;;
+[CONDUCTEUR_FLEXIBLE,1 buigzame draad]-insert CONDUCTEUR_FLEXIBLE;\;;;
+
+**ELEC20B
+[ELEC20B,Cables rep vert]
+[REP_CABLE_V01,1 draad]-insert REP_CABLE_V01;\;;;
+[REP_CABLE_V02,2 draden]-insert REP_CABLE_V02;\;;;
+[REP_CABLE_V03,3 draden]-insert REP_CABLE_V03;\;;;
+[REP_CABLE_V04,4 draden]-insert REP_CABLE_V04;\;;;
+[REP_CABLE_V05,5 draden]-insert REP_CABLE_V05;\;;;
+[REP_CABLE_V06,6 draden]-insert REP_CABLE_V06;\;;;
+[REP_CABLE_V07,7 draden]-insert REP_CABLE_V07;\;;;
+[REP_CABLE_V08,8 draden]-insert REP_CABLE_V08;\;;;
+[REP_CABLE_V09,9 draden]-insert REP_CABLE_V09;\;;;
+[REP_CABLE_V10,10 draden]-insert REP_CABLE_V10;\;;;
+[REP_CABLE_V11,11 draden]-insert REP_CABLE_V11;\;;;
+[REP_CABLE_V12,12 draden]-insert REP_CABLE_V12;\;;;
+[REP_CABLE_V13,13 draden]-insert REP_CABLE_V13;\;;;
+[REP_CABLE_V14,14 draden]-insert REP_CABLE_V14;\;;;
+[REP_CABLE_V15,15 draden]-insert REP_CABLE_V15;\;;;
+[REP_CABLE_V16,16 draden]-insert REP_CABLE_V16;\;;;
+[REP_CABLE_V17,17 draden]-insert REP_CABLE_V17;\;;;
+[REP_CABLE_V18,18 draden]-insert REP_CABLE_V18;\;;;
+[REP_CABLE_V19,19 draden]-insert REP_CABLE_V19;\;;;
+[REP_CABLE_V20,20 draden]-insert REP_CABLE_V20;\;;;
+[CONDUCTEUR1_SS_ECRAN_VERT,1 draad onder scherm]-insert CONDUCTEUR1_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR2_SS_ECRAN_VERT,2 draden onder scherm]-insert CONDUCTEUR2_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR3_SS_ECRAN_VERT,3 draden onder scherm]-insert CONDUCTEUR3_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR4_SS_ECRAN_VERT,4 draden onder scherm]-insert CONDUCTEUR4_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR5_SS_ECRAN_VERT,5 draden onder scherm]-insert CONDUCTEUR5_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR6_SS_ECRAN_VERT,6 draden onder scherm]-insert CONDUCTEUR6_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR7_SS_ECRAN_VERT,7 draden onder scherm]-insert CONDUCTEUR7_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR8_SS_ECRAN_VERT,8 draden onder scherm]-insert CONDUCTEUR8_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR9_SS_ECRAN_VERT,9 draden onder scherm]-insert CONDUCTEUR9_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR10_SS_ECRAN_VERT,10 draden onder scherm]-insert CONDUCTEUR10_SS_ECRAN_VERT;\;;;
+[CONDUCTEUR2_TORSADE_VERT,2 draden gedraaid]-insert CONDUCTEUR2_TORSADE_VERT;\;;;
+[CONDUCTEUR_FLEXIBLE_VERT,1 buigzame draad]-insert CONDUCTEUR_FLEXIBLE_VERT;\;;;
+
+**ELEC21
+[ELEC1,Funktie]
+[FONCTION_DISJONCTEUR,Automaat]-insert FONCTION_DISJONCTEUR;\;;;
+[FONCTION_CONTACTEUR,Contactor]-insert FONCTION_CONTACTEUR;\;;;
+[FONCTION_SECTIONNEUR,Scheider]-insert FONCTION_SECTIONNEUR;\;;;
+[FONCTION_INT_SECTIONNEUR,Last scheider]-insert FONCTION_INT_SECTIONNEUR;\;;;
+[FONCTION_DECLENCH_AUTO,Auto uitschakeling]-insert FONCTION_DECLENCH_AUTO;\;;;
+[FONCTION_INT_POSITION_NO,Schakelaar stand NO]-insert FONCTION_INT_POSITION_NO;\;;;
+[FONCTION_INT_POSITION_NF,Schakelaar stand NG]-insert FONCTION_INT_POSITION_NF;\;;;
+[FONCTION_RETOUR_AUTO_NO,Auto terugkeer NO]-insert FONCTION_RETOUR_AUTO_NO;\;;;
+[FONCTION_RETOUR_AUTO_NF,Auto terugkeer NG]-insert FONCTION_RETOUR_AUTO_NF;\;;;
+[FONCTION_CONT_FUGITIF_ACTION,Vluchtig met werking]-insert FONCTION_CONT_FUGITIF_ACTION;\;;;
+[FONCTION_CONT_FUGITIF_DECLENCH,Vluchtig met uitschakeling]-insert FONCTION_CONT_FUGITIF_DECLENCH;\;;;
+[FONCTION_CONT_FUGITIF_2_SENS,Vluchtig in de 2 richtingen]-insert FONCTION_CONT_FUGITIF_2_SENS;\;;;
+
+**CARTOUCHES01
+[CARTOUCHES01,Titelblad]
+[CARTOUCHE_A3_NL,1 Titelblad A3]-insert CARTOUCHE_A3_NL;\;;;
+[CARTOUCHE_A3_PDG_NL,2 Voorpagina A3]-insert CARTOUCHE_A3_PDG_NL;\;;;
+[TXT01,3 Tekst in teken]-insert TXT01;\;;;
+[TXT02,4 Tekst in teken]-insert TXT02;\;;;
+[TXT03,5 Tekst in teken]-insert TXT03;\;;;
+[TXT04,6 Tekst in teken]-insert TXT04;\;;;
+[TXT05,7 Tekst in teken]-insert TXT05;\;;;
+
+**GEN01
+[GEN01,Algemeenheden]
+[EFFET_THERMIQUE,Thermisch invloed]-insert EFFET_THERMIQUE;\;;;
+[EFFET_ELECTROMAGNETIQUE,Electromagnetisch invloed]-insert EFFET_ELECTROMAGNETIQUE;\;;;
+[EFFET_MAGNETOSTRICTION,Piezoelektrisch invloed]-insert EFFET_MAGNETOSTRICTION;\;;;
+[EFFET_CHAMP_MAGNETIQUE,Magnetische veld invloed]-insert EFFET_CHAMP_MAGNETIQUE;\;;;
+[TEMPORISATION,Tijdvertraging]-insert TEMPORISATION;\;;;
+[RAYON_IONISANT,Ioniserend straling]-insert RAYON_IONISANT;\;;;
+[RAYON_NON_IONISANT,Niet ioniserend straling]-insert RAYON_NON_IONISANT;\;;;
+[RAYON_COHERENT,samenhangende straling]-insert RAYON_COHERENT;\;;;
+[IMPULS_POSITIVE,+ impuls]-insert IMPULS_POSITIVE;\;;;
+[IMPULS_NEGATIVE,- impuls]-insert IMPULS_NEGATIVE;\;;;
+[IMPULS_CA,AC impuls]-insert IMPULS_CA;\;;;
+[FCT_ECHELON_POSITIVE,+ trap funktie]-insert FCT_ECHELON_POSITIVE;\;;;
+[FCT_ECHELON_NEGATIVE,- trap funktie]-insert FCT_ECHELON_NEGATIVE;\;;;
+[ONDE_DENT_SCIE,Golf in zaag vorm]-insert ONDE_DENT_SCIE;\;;;
+[ROTATION_DROITE,Draaiing rechts]-insert ROTATION_DROITE;\;;;
+[ROTATION_GAUCHE,Draaiing left]-insert ROTATION_GAUCHE;\;;;
+[ROTATION_2_SENS,Draaiing 2 richtingen]-insert ROTATION_2_SENS;\;;;
+[TRANSL_DROITE,Verpl rechts]-insert TRANSL_DROITE;\;;;
+[TRANSL_GAUCHE,Verpl left]-insert TRANSL_GAUCHE;\;;;
+[TRANSL_2_SENS,Verpl 2 richtingen]-insert TRANSL_2_SENS;\;;;
+[PROP_ENERGIE_G,energie naar links]-insert PROP_ENERGIE_G;\;;;
+[PROP_ENERGIE_D,energie naar rechts]-insert PROP_ENERGIE_D;\;;;
+[PROP_ENERGIE_GD,energie L+R tegelijkertijd]-insert PROP_ENERGIE_GD;\;;;
+[PROP_ENERGIE_G_OU_D,energie L of R]-insert PROP_ENERGIE_G_OU_D;\;;;
+[PROP_ENERGIE_EM_G,zend energie links]-insert PROP_ENERGIE_EM_G;\;;;
+[PROP_ENERGIE_EM_D,zend energie rechts]-insert PROP_ENERGIE_EM_D;\;;;
+[PROP_ENERGIE_REC_G,ontvang energie links]-insert PROP_ENERGIE_REC_G;\;;;
+[PROP_ENERGIE_REC_D,ontvang energie rechts]-insert PROP_ENERGIE_REC_D;\;;;
+[PROP_ENERGIE_TRANS_DE,energie komt barenstel]-insert PROP_ENERGIE_TRANS_DE;\;;;
+[PROP_ENERGIE_TRANS_VERS,energie gaat barenstel]-insert PROP_ENERGIE_TRANS_VERS;\;;;
+[PROP_ENERGIE_TRANS_GD,energie komt-gaat barenstel]-insert PROP_ENERGIE_TRANS_GD;\;;;
+[AJUSTEMENT_PREDETERMINE,Voorgestelde regeling]-insert AJUSTEMENT_PREDETERMINE;\;;;
+[VARIAB_EXTRINSEQUE,extrins wisselwaarde]-insert VARIAB_EXTRINSEQUE;\;;;
+[VARIAB_EXTRINS_NON_LIN,niet lineaire extrins wisselwaarde]-insert VARIAB_EXTRINS_NON_LIN;\;;;
+[VARIAB_INTRINSEQUE,intrins wisselwaard]-insert VARIAB_INTRINSEQUE;\;;;
+[VARIAB_INTRINS_NON_LIN,niet lineaire intrins wisselwaarde]-insert VARIAB_INTRINS_NON_LIN;\;;;
+
+**UNIF01
+[UNIF01,Huishoud apparaten]
+[APPAREIL_ELECTRO_GEN_UNIF,Algemeen symbool]-insert APPAREIL_ELECTRO_GEN_UNIF;\;;;
+[CHAUFFAGE_UNIF,Verwarming]-insert CHAUFFAGE_UNIF;\;;;
+[CHAUF_ACCUM_UNIF,Verwarm. accumulatie]-insert CHAUF_ACCUM_UNIF;\;;;
+[CHAUF_ACCUM_VENT_UNIF,Verwarm. accum-ventilator]-insert CHAUF_ACCUM_VENT_UNIF;\;;;
+[CHAUFFE_EAU_UNIF,Water verwarmer boiler]-insert CHAUFFE_EAU_UNIF;\;;;
+[CHAUFFE_EAU_ACCUM_UNIF,Water verwarmer-accumulatie]-insert CHAUFFE_EAU_ACCUM_UNIF;\;;;
+[CONGELATEUR_UNIF,Vriezer]-insert CONGELATEUR_UNIF;\;;;
+[FRIGO_UNIF,Koelkast]-insert FRIGO_UNIF;\;;;
+[CUISINIERE_ELEC_UNIF,Elektrisch kooktoestel]-insert CUISINIERE_ELEC_UNIF;\;;;
+[PLAQUE_CHAUF_UNIF,Verwarmingsplaat]-insert PLAQUE_CHAUF_UNIF;\;;;
+[FOUR_ELEC_UNIF,Elektrisch fornuis]-insert FOUR_ELEC_UNIF;\;;;
+[FOUR_MICRO_UNIF,µ-golf fornuis]-insert FOUR_MICRO_UNIF;\;;;
+[FRITEUSE_ELEC_UNIF,Frituurpan]-insert FRITEUSE_ELEC_UNIF;\;;;
+[LAVE_VAISSELLE_UNIF,Vaatwasser]-insert LAVE_VAISSELLE_UNIF;\;;;
+[LESSIVEUSE_UNIF,Wasautomaat]-insert LESSIVEUSE_UNIF;\;;;
+[SECHOIR_UNIF,Droogkast]-insert SECHOIR_UNIF;\;;;
+
+**UNIF02
+[UNIF02,Stopcontacten en lampen]
+[SOCLE_PRISE_COURANT,Stopcontact]-insert SOCLE_PRISE_COURANT;\;;;
+[SOCLE_PRISE_COURANT_MULT,Stopc. multi]-insert SOCLE_PRISE_COURANT_MULT;\;;;
+[SOCLE_PRISE_COURANT_VOLET,Stopc. met klap]-insert SOCLE_PRISE_COURANT_VOLET;\;;;
+[SOCLE_PRISE_COUR_VOLET_MULT,Stopc. met klap multi]-insert SOCLE_PRISE_COUR_VOLET_MULT;\;;;
+[SOCLE_PRISE_COUR_VOLET_PE,Stopc.+PE+klap]-insert SOCLE_PRISE_COUR_VOLET_PE;\;;;
+[SOCLE_PRISE_COUR_VOLET_PE_MULT,Stopc.+PE+klap multi]-insert SOCLE_PRISE_COUR_VOLET_PE_MULT;\;;;
+[SOCLE_PRISE_COURANT_PE,Stopc.+PE]-insert SOCLE_PRISE_COURANT_PE;\;;;
+[SOCLE_PRISE_COURANT_PE_MULT,Stopc.+PE multi]-insert SOCLE_PRISE_COURANT_PE_MULT;\;;;
+[SOCLE_PRISE_COURANT_INT_1P,Stopc. schakelaar 1P]-insert SOCLE_PRISE_COURANT_INT_1P;\;;;
+[SOCLE_PRISE_COURANT_INT_VERR,Stopc. schakelaar vergrendeld]-insert SOCLE_PRISE_COURANT_INT_VERR;\;;;
+[SOCLE_PRISE_COURANT_HP,Stopc. luidspreker]-insert SOCLE_PRISE_COURANT_HP;\;;;
+[SOCLE_PRISE_COURANT_MICRO,Stopc. microfoon]-insert SOCLE_PRISE_COURANT_MICRO;\;;;
+[SOCLE_PRISE_COURANT_PHONE,Stopc. telefoon]-insert SOCLE_PRISE_COURANT_PHONE;\;;;
+[SOCLE_PRISE_COURANT_RADIO,Stopc. radio]-insert SOCLE_PRISE_COURANT_RADIO;\;;;
+[SOCLE_PRISE_COURANT_TELEX,Stopc. telex]-insert SOCLE_PRISE_COURANT_TELEX;\;;;
+[SOCLE_PRISE_COURANT_TFO,Stopc. trasfo]-insert SOCLE_PRISE_COURANT_TFO;\;;;
+[SOCLE_PRISE_COURANT_TV,Stopc. TV]-insert SOCLE_PRISE_COURANT_TV;\;;;
+[SOCLE_PRISE_COURANT_ORDIN,Stopc. computer]-insert SOCLE_PRISE_COURANT_ORDIN;\;;;
+[LAMPE_UNIF,Lamp]-insert LAMPE_UNIF;\;;;
+[LUM_UNIF_1TL,1TL lamp]-insert LUM_UNIF_1TL;\;;;
+[LUM_UNIF_2TL,2TL lamp]-insert LUM_UNIF_2TL;\;;;
+[LUM_UNIF_3TL,3TL lamp]-insert LUM_UNIF_3TL;\;;;
+[LUM_UNIF_MULTI_TL,xTL lamp]-insert LUM_UNIF_MULTI_TL;\;;;
+[LUM_UNIF_APPLIQUE_ATTENTE,Lamp opbouw-afwachting]-insert LUM_UNIF_APPLIQUE_ATTENTE;\;;;
+[LUM_UNIF_ATTENTE,Lamp afwachting]-insert LUM_UNIF_ATTENTE;\;;;
+[LUM_UNIF_AVEC_INT_1P,Lamp schak. 1P]-insert LUM_UNIF_AVEC_INT_1P;\;;;
+[LUM_UNIF_AVEC_INT_2P,Lamp schak. 2P]-insert LUM_UNIF_AVEC_INT_2P;\;;;
+[LUM_UNIF_BLOC_SECOURS,Auton voed noodverlicht]-insert LUM_UNIF_BLOC_SECOURS;\;;;
+[LUM_UNIF_PROJ,Spot algemeen symbool]-insert LUM_UNIF_PROJ;\;;;
+[LUM_UNIF_PROJ_DIV,Spot uiteenlopend straal]-insert LUM_UNIF_PROJ_DIV;\;;;
+[LUM_UNIF_PROJ_NON_DIV,Spot gerichte straal]-insert LUM_UNIF_PROJ_NON_DIV;\;;;
+[LUM_UNIF_SECURITE,Noodverlichting]-insert LUM_UNIF_SECURITE;\;;;
+[LUM_UNIF_TL_AUX,Apparaat voor TL lamp]-insert LUM_UNIF_TL_AUX;\;;;
+
+**UNIF03
+[UNIF03,Knoppen-omschakelaars]
+[BOUT_POUSSOIR_UNIF,Drukknop]-insert BOUT_POUSSOIR_UNIF;\;;;
+[BOUT_POUSSOIR_UNIF_ACCES_PROT,DK beperkte toegang]-insert BOUT_POUSSOIR_UNIF_ACCES_PROT;\;;;
+[BOUT_POUSSOIR_UNIF_LUM,DK verlicht]-insert BOUT_POUSSOIR_UNIF_LUM;\;;;
+[COMMUTATEUR_UNIF_1P,Omsch 1P]-insert COMMUTATEUR_UNIF_1P;\;;;
+[COMMUTATEUR_UNIF_2P,Omsch 2P]-insert COMMUTATEUR_UNIF_2P;\;;;
+[COMMUTATEUR_UNIF_3P,Omsch 3P]-insert COMMUTATEUR_UNIF_3P;\;;;
+[COMMUTATEUR_UNIF_4P,Omsch 4P]-insert COMMUTATEUR_UNIF_4P;\;;;
+[COM_UNIF_INTERM_VA_VIENT,Omsch 2 richt]-insert COM_UNIF_INTERM_VA_VIENT;\;;;
+[INT_UNIF_1P,Schakelaar 1P]-insert INT_UNIF_1P;\;;;
+[INT_UNIF_2P,Schakelaar 2P]-insert INT_UNIF_2P;\;;;
+[INT_UNIF_3P,Schakelaar 3P]-insert INT_UNIF_3P;\;;;
+[INT_UNIF_GENERAL,Schakelaar algemeen symbool]-insert INT_UNIF_GENERAL;\;;;
+[INT_UNIF_GRADATEUR,Dimmer schakelaar]-insert INT_UNIF_GRADATEUR;\;;;
+[INT_UNIF_LAMPE_TEMOIN,Schakelaar verlicht]-insert INT_UNIF_LAMPE_TEMOIN;\;;;
+[INT_UNIF_TEMP_FERM_LIM_1P,Schak 1P beperkte sluitingstijd]-insert INT_UNIF_TEMP_FERM_LIM_1P;\;;;
+[INT_UNIF_TEMP_FERM_LIM_2P,Schak 2P beperkte sluitingstijd]-insert INT_UNIF_TEMP_FERM_LIM_2P;\;;;
+[INT_UNIF_TIRETTE_1P,Schak 1P trekken]-insert INT_UNIF_TIRETTE_1P;\;;;
+[INT_UNIF_TIRETTE_2P,Schak 2P trekken]-insert INT_UNIF_TIRETTE_2P;\;;;
+[INT_UNIF_VA_VIENT_1P,Schak 1P 2 richt]-insert INT_UNIF_VA_VIENT_1P;\;;;
+[INT_UNIF_VA_VIENT_2P,Schak 2P 2 richt]-insert INT_UNIF_VA_VIENT_2P;\;;;
+
+**UNIF04
+[UNIF04,Aanduiders]
+[INTERPHONE_UNIF,Deurtelefoon]-insert INTERPHONE_UNIF;\;;;
+[SIRENE_UNIF,Sirene]-insert SIRENE_UNIF;\;;;
+[TROMPE_UNIF,Hoorn]-insert TROMPE_UNIF;\;;;
+[VIBREUR_UNIF,Zoemer]-insert VIBREUR_UNIF;\;;;
+[SONNERIE_UNIF,Bel]-insert SONNERIE_UNIF;\;;;
+
+**UNIF05
+[UNIF05,Motor en trafo]
+[MOTEUR_UNIF,Motor]-insert MOTEUR_UNIF;\;;;
+[COMMUTATRICE_UNIF,Commutator moor]-insert COMMUTATRICE_UNIF;\;;;
+[MOTEUR_SYNCHRONE_UNIF,Synchrone motor]-insert MOTEUR_SYNCHRONE_UNIF;\;;;
+[GENERATRICE_UNIF,Generator]-insert GENERATRICE_UNIF;\;;;
+[ALTERN_SYNCHRONE_UNIF,Synchrone alternator]-insert ALTERN_SYNCHRONE_UNIF;\;;;
+[INDUCTANCE_UNIF,Wikkeling horizontaal]-insert INDUCTANCE_UNIF;\;;;
+[INDUCTANCE_VERT_UNIF,Wikkeling verticaal]-insert INDUCTANCE_VERT_UNIF;\;;;
+[TRAFO_UNIF,Trafo horizontaal]-insert TRAFO_UNIF;\;;;
+[TRAFO_VERT_UNIF,Trafo verticaal]-insert TRAFO_VERT_UNIF;\;;;
+[AUTOTRAFO_UNIF,AutoTrafo]-insert AUTOTRAFO_UNIF;\;;;
+[AUTOTRAFO_VERT_UNIF,AutoTrafo]-insert AUTOTRAFO_VERT_UNIF;\;;;
+[Trafo3_HORIZ_UNIF,Trafo horizontaal]-insert Trafo3_HORIZ_UNIF;\;;;
+[Trafo3_VERT_UNIF,Trafo verticaal]-insert Trafo3_VERT_UNIF;\;;;
+[TRAFO_2P_PRISE_MED_UNIF,Trafo 2P mediaan aftakking op 1 wikkeling]-insert TRAFO_2P_PRISE_MED_UNIF;\;;;
+[TRAFO_2P_REGLABLE_UNIF,Trafo 2P koppeling regelbaar]-insert TRAFO_2P_REGLABLE_UNIF;\;;;
+[TRAFO_3P_YD_UNIF,Trafo 3P koppeling YD]-insert TRAFO_3P_YD_UNIF;\;;;
+[TRAFO_3P_YY_UNIF,Trafo 3P koppeling YY]-insert TRAFO_3P_YY_UNIF;\;;;
+[TRAFO_3P_DY_UNIF,Trafo 3P koppeling DY]-insert TRAFO_3P_DY_UNIF;\;;;
+[TRAFO_3P_DD_UNIF,Trafo 3P koppeling DD]-insert TRAFO_3P_DD_UNIF;\;;;
+[TRAFO_3P_4PRISES_YD_UNIF,Trafo 3P 4stekker koppel YD]-insert TRAFO_3P_4PRISES_YD_UNIF;\;;;
+[TRAFO_3P_4PRISES_YY_UNIF,Trafo 3P 4stekker koppel YY]-insert TRAFO_3P_4PRISES_YY_UNIF;\;;;
+[TRAFO_3P_4PRISES_DY_UNIF,Trafo 3P 4stekker koppel DY]-insert TRAFO_3P_4PRISES_DY_UNIF;\;;;
+[TRAFO_3P_4PRISES_DD_UNIF,Trafo 3P 4stekker koppel DD]-insert TRAFO_3P_4PRISES_DD_UNIF;\;;;
+[TRAFO_3TR_2P_YD_UNIF,3Trafo 2P koppel YD]-insert TRAFO_3TR_2P_YD_UNIF;\;;;
+[TRAFO_3TR_2P_YY_UNIF,3Trafo 2P koppel YY]-insert TRAFO_3TR_2P_YY_UNIF;\;;;
+[TRAFO_3TR_2P_DY_UNIF,3Trafo 2P koppel DY]-insert TRAFO_3TR_2P_DY_UNIF;\;;;
+[TRAFO_3TR_2P_DD_UNIF,3Trafo 2P koppel DD]-insert TRAFO_3TR_2P_DD_UNIF;\;;;
+[TRAFO_3P_COM_PRISE_YD_UNIF,Trafo 3P stekker multi YD]-insert TRAFO_3P_COM_PRISE_YD_UNIF;\;;;
+[TRAFO_3P_COM_PRISE_YY_UNIF,Trafo 3P stekker multi YY]-insert TRAFO_3P_COM_PRISE_YY_UNIF;\;;;
+[TRAFO_3P_COM_PRISE_DY_UNIF,Trafo 3P stekker multi DY]-insert TRAFO_3P_COM_PRISE_DY_UNIF;\;;;
+[TRAFO_3P_COM_PRISE_DD_UNIF,Trafo 3P stekker multi DD]-insert TRAFO_3P_COM_PRISE_DD_UNIF;\;;;
+[TRAFO_3P_YZ_UNIF,Trafo 3P koppeling YZ]-insert TRAFO_3P_YZ_UNIF;\;;;
+[TRAFO_3P_YYD_UNIF,Trafo 3P koppeling YYD]-insert TRAFO_3P_YYD_UNIF;\;;;
+[AUTOTRAFO_REGLABLE_UNIF,AutoTrafo 2P regelbaar]-insert AUTOTRAFO_REGLABLE_UNIF;\;;;
+[REGUL_INDUCT_3P_UNIF,Regulateur met inductie 3P]-insert REGUL_INDUCT_3P_UNIF;\;;;
+[TRAFO_TI_HORIZ_UNIF,Trafo 1Ti horizontaal]-insert TRAFO_TI_HORIZ_UNIF;\;;;
+[TRAFO_TI2_HORIZ_UNIF,Trafo 2Ti horizontaal]-insert TRAFO_TI2_HORIZ_UNIF;\;;;
+[TRAFO_TI3_HORIZ_UNIF,Trafo 3Ti horizontaal]-insert TRAFO_TI3_HORIZ_UNIF;\;;;
+[TRAFO_TI4_HORIZ_UNIF,Trafo 4Ti horizontaal]-insert TRAFO_TI4_HORIZ_UNIF;\;;;
+[TRAFO_TI5_HORIZ_UNIF,Trafo 5Ti horizontaal]-insert TRAFO_TI5_HORIZ_UNIF;\;;;
+[TRAFO_TI_VERT_UNIF,Trafo 1Ti verticaal]-insert TRAFO_TI_VERT_UNIF;\;;;
+[TRAFO_TI2_VERT_UNIF,Trafo 2Ti verticaal]-insert TRAFO_TI2_VERT_UNIF;\;;;
+[TRAFO_TI3_VERT_UNIF,Trafo 3Ti verticaal]-insert TRAFO_TI3_VERT_UNIF;\;;;
+[TRAFO_TI4_VERT_UNIF,Trafo 4Ti verticaal]-insert TRAFO_TI4_VERT_UNIF;\;;;
+[TRAFO_TI5_VERT_UNIF,Trafo 5Ti verticaal]-insert TRAFO_TI5_VERT_UNIF;\;;;
+[GENERATEUR_UNIF,Generator]-insert GENERATEUR_UNIF;\;;;
+[SOURCE_CHALEUR_UNIF,Warmte bron]-insert SOURCE_CHALEUR_UNIF;\;;;
+[SOURCE_CHALEUR_RADIOISO_UNIF,Warm bron radioisotopiek]-insert SOURCE_CHALEUR_RADIOISO_UNIF;\;;;
+[SOURCE_CHALEUR_COMBUST_UNIF,Warm bron verbranding]-insert SOURCE_CHALEUR_COMBUST_UNIF;\;;;
+[GEN_TH_SRC_CHAL_COMBUST_UNIF,Gen thermoelec verbranding]-insert GEN_TH_SRC_CHAL_COMBUST_UNIF;\;;;
+[GEN_TH_SRC_CHAL_RAY_ION_UNIF,Gen thermoelec straal niet ioniserend]-insert GEN_TH_SRC_CHAL_RAY_ION_UNIF;\;;;
+[GEN_TH_SRC_CHAL_ISOT_UNIF,Gen thermoelec radioisotop]-insert GEN_TH_SRC_CHAL_ISOT_UNIF;\;;;
+[GEN_TH_SEMIC_SRC_CH_NION_UNIF,Gen thermoion halfg straal niet ioniserend]-insert GEN_TH_SEMIC_SRC_CH_NION_UNIF;\;;;
+[GEN_TH_SEMIC_SRC_CH_ISOT_UNIF,Gen thermoion halfg radioisotop]-insert GEN_TH_SEMIC_SRC_CH_ISOT_UNIF;\;;;
+[GEN_PHOTOVOLT_UNIF,Gen photovolt]-insert GEN_PHOTOVOLT_UNIF;\;;;
+[DEMARREUR_MOTEUR_UNIF,Starter van motor]-insert DEMARREUR_MOTEUR_UNIF;\;;;
+[DEM_MOT_ECHELON_UNIF,Starter per stap]-insert DEM_MOT_ECHELON_UNIF;\;;;
+[DEM_MOT_REGLEUR_UNIF,Starter regelaar]-insert DEM_MOT_REGLEUR_UNIF;\;;;
+[DEM_MOT_STOP_AUTO_UNIF,Starter met stop auto]-insert DEM_MOT_STOP_AUTO_UNIF;\;;;
+[DEM_MOT_CONT_2SENS_UNIF,Starter contactor 2 draairichting]-insert DEM_MOT_CONT_2SENS_UNIF;\;;;
+[DEM_MOT_YD_UNIF,Starter ster driehoek]-insert DEM_MOT_YD_UNIF;\;;;
+[DEM_MOT_AUTOTRANSFO_UNIF,Starter door autotrafo]-insert DEM_MOT_AUTOTRANSFO_UNIF;\;;;
+[DEM_MOT_THYRISTOR_UNIF,Starter regelaar door thyristor]-insert DEM_MOT_THYRISTOR_UNIF;\;;;
+
+**UNIF06
+[UNIF06,Apparaten voor elektrische bord]
+[COFFRET_UNIF,Kastje]-insert COFFRET_UNIF;\;;;
+[BOITE_UNIF,Doos algemeen symbool]-insert BOITE_UNIF;\;;;
+[BOITE_CONNEXION_UNIF,Verbindingsdoos]-insert BOITE_CONNEXION_UNIF;\;;;
+[TELERUPTEUR_UNIF,Teleruptor]-insert TELERUPTEUR_UNIF;\;;;
+[DISP_UNIF_CDE_CLEF,Bevel met sleutel]-insert DISP_UNIF_CDE_CLEF;\;;;
+[GACHE_ELEC_UNIF,Elektr deurvergrend]-insert GACHE_ELEC_UNIF;\;;;
+[VENT_UNIF,Ventilator]-insert VENT_UNIF;\;;;
+[THERMOSTAT_UNIF,Thermostaat]-insert THERMOSTAT_UNIF;\;;;
+[COMPTEUR_UNIF,Teller]-insert COMPTEUR_UNIF;\;;;
+[INT_HORAIRE_UNIF,Tijdschakelaar]-insert INT_HORAIRE_UNIF;\;;;
+[HORLOGE_POINTAGE_UNIF,Stempelklok]-insert HORLOGE_POINTAGE_UNIF;\;;;
+[HORLOGE_UNIF,Klok]-insert HORLOGE_UNIF;\;;;
+[HORLOGE_MERE_UNIF,Moeder-klok]-insert HORLOGE_MERE_UNIF;\;;;
+[MINUTERIE_UNIF,Tijdvertraagde relais]-insert MINUTERIE_UNIF;\;;;
+[REL_UZERO_UNIF,Rel spanning afwezig]-insert REL_UZERO_UNIF;\;;;
+[REL_UMAX_UNIF,Rel spanning max]-insert REL_UMAX_UNIF;\;;;
+[REL_UMIN_UNIF,Rel spanning min]-insert REL_UMIN_UNIF;\;;;
+[REL_I_RETOUR_UNIF,Rel terug stroom]-insert REL_I_RETOUR_UNIF;\;;;
+[REL_PACTIV_MIN_UNIF,Rel Pact min]-insert REL_PACTIV_MIN_UNIF;\;;;
+[REL_PACTIV_MAX_UNIF,Rel Pact max]-insert REL_PACTIV_MAX_UNIF;\;;;
+[REL_IMAX_TEMP_UNIF,Rel Imax aktie vertraagd]-insert REL_IMAX_TEMP_UNIF;\;;;
+[REL_IMAX_2MES_AJUST_UNIF,Rel Imax 2 meting regelbaar]-insert REL_IMAX_2MES_AJUST_UNIF;\;;;
+[REL_PREACT_MAX_ENERG_AJ_T_UNIF,Rel Preactiv max transit naar rail regelbaar en tempo]-insert REL_PREACT_MAX_ENERG_AJ_T_UNIF;\;;;
+[REL_UMIN_AJ_POURC_UNIF,Rel Umin regelbaar en % terug]-insert REL_UMIN_AJ_POURC_UNIF;\;;;
+[REL_IMINMAX_UNIF,Rel I min max]-insert REL_IMINMAX_UNIF;\;;;
+[REL_ZMIN_UNIF,Rel min impedance]-insert REL_ZMIN_UNIF;\;;;
+[REL_DET_CC_SPIRE_UNIF,Rel detect kortsluiting tussen wikkel]-insert REL_DET_CC_SPIRE_UNIF;\;;;
+[REL_DET_COUPURE_SPIRE_UNIF,Rel detect snijd wikkel]-insert REL_DET_COUPURE_SPIRE_UNIF;\;;;
+[REL_DET_MANQ_PH_UNIF,Rel detect faze ontbreekt]-insert REL_DET_MANQ_PH_UNIF;\;;;
+[REL_DET_ROT_BLOQ_IMAX_UNIF,Rel Imax detect rotor geblokkeerd]-insert REL_DET_ROT_BLOQ_IMAX_UNIF;\;;;
+[REL_IMAX_2SORTIE_UNIF,Rel Imax 2 uitgangen]-insert REL_IMAX_2SORTIE_UNIF;\;;;
+[REL_BUCHHOLZ_UNIF,Rel Buchholz]-insert REL_BUCHHOLZ_UNIF;\;;;
+[REL_REENCL_AUTO_UNIF,Rel auto terug schakel]-insert REL_REENCL_AUTO_UNIF;\;;;
+
+**UNIF07
+[UNIF07,Leidingen]
+[CANAL_SOUTERRAINE,in de grond]-insert CANAL_SOUTERRAINE;\;;;
+[CANAL_IMMERGEE,in het water]-insert CANAL_IMMERGEE;\;;;
+[CANAL_AERIENNE,in de lucht]-insert CANAL_AERIENNE;\;;;
+[CANAL_DANS_1_CONDUIT,in 1 leiding]-insert CANAL_DANS_1_CONDUIT;\;;;
+[CANAL_DESCENDANTE,afwaarts]-insert CANAL_DESCENDANTE;\;;;
+[CANAL_MONTANTE,opwaarts]-insert CANAL_MONTANTE;\;;;
+[CANAL_TRAVERSANTE,doorvoerend]-insert CANAL_TRAVERSANTE;\;;;
+[CANAL_ENCASTREE,ingebouwd]-insert CANAL_ENCASTREE;\;;;
+[CANAL_ENCASTREE_N_COND,ingebouwd x-geleiders]-insert CANAL_ENCASTREE_N_COND;\;;;
+[CANAL_ENCASTREE_TUBE_N_COND,ingebouwd in buis x-geleiders]-insert CANAL_ENCASTREE_TUBE_N_COND;\;;;
+[CANAL_APPARENTE,in opbouw]-insert CANAL_APPARENTE;\;;;
+[CANAL_APPARENTE_N_COND,in opbouw x-geleiders]-insert CANAL_APPARENTE_N_COND;\;;;
+[CANAL_APPARENTE_TUBE_N_COND,in opbouw in buis x-geleiders]-insert CANAL_APPARENTE_TUBE_N_COND;\;;;
+[FAISCEAU_N_CONDUITS,Geheel van x-leidingen]-insert FAISCEAU_N_CONDUITS;\;;;
+
+**INST01
+[INST01,Centrale in project]
+[CENTRALE_PR_INST,Centrale]-insert CENTRALE_PR_INST;\;;;
+[CENTR_PR_ELEC_CHAL_INST,Elec en warmte]-insert CENTR_PR_ELEC_CHAL_INST;\;;;
+[POSTE_PR_INST,Onderstation]-insert POSTE_PR_INST;\;;;
+[CENTR_PR_HYDR_INST,Hydraulische]-insert CENTR_PR_HYDR_INST;\;;;
+[CENTR_PR_THERM_INST,Thermische]-insert CENTR_PR_THERM_INST;\;;;
+[CENTR_PR_NUCL_INST,Nucleaar]-insert CENTR_PR_NUCL_INST;\;;;
+[CENTR_PR_GEOTHERM_INST,Geothermische]-insert CENTR_PR_GEOTHERM_INST;\;;;
+[CENTR_PR_SOLAIRE_INST,Zon]-insert CENTR_PR_SOLAIRE_INST;\;;;
+[CENTR_PR_EOLIEN_INST,Windmolen]-insert CENTR_PR_EOLIEN_INST;\;;;
+[CENTR_PR_PLASMA_INST,Plasma]-insert CENTR_PR_PLASMA_INST;\;;;
+[CENTR_PR_CONV_CC_CA_INST,Onderstation CC -> CA]-insert CENTR_PR_CONV_CC_CA_INST;\;;;
+[CENTR_PR_CONV_CA_CC_INST,Onderstation CA -> CC]-insert CENTR_PR_CONV_CA_CC_INST;\;;;
+
+**INST02
+[INST02,Centrale in dienst]
+[CENTRALE_SV_INST,Centrale]-insert CENTRALE_SV_INST;\;;;
+[CENTR_SV_ELEC_CHAL_INST,Elec en warmte]-insert CENTR_SV_ELEC_CHAL_INST;\;;;
+[POSTE_SV_INST,Onderstation]-insert POSTE_SV_INST;\;;;
+[CENTR_SV_HYDR_INST,Hydraulische]-insert CENTR_SV_HYDR_INST;\;;;
+[CENTR_SV_THERM_INST,Thermische]-insert CENTR_SV_THERM_INST;\;;;
+[CENTR_SV_NUCL_INST,Nucleaar]-insert CENTR_SV_NUCL_INST;\;;;
+[CENTR_SV_GEOTHERM_INST,Geothermische]-insert CENTR_SV_GEOTHERM_INST;\;;;
+[CENTR_SV_SOLAIRE_INST,Zon]-insert CENTR_SV_SOLAIRE_INST;\;;;
+[CENTR_SV_EOLIEN_INST,Windmolen]-insert CENTR_SV_EOLIEN_INST;\;;;
+[CENTR_SV_PLASMA_INST,Plasma]-insert CENTR_SV_PLASMA_INST;\;;;
+[CENTR_SV_CONV_CC_CA_INST,Onderstation CC -> CA]-insert CENTR_SV_CONV_CC_CA_INST;\;;;
+[CENTR_SV_CONV_CA_CC_INST,Onderstation CA -> CC]-insert CENTR_SV_CONV_CA_CC_INST;\;;;
+
+**INST03
+[INST03,Allerlei]
+[CABINE_INST,Kast voor buiten]-insert CABINE_INST;\;;;
+[CABINE_AMPLIF_INST,Versterkingskast]-insert CABINE_AMPLIF_INST;\;;;
+[REPARTITION_INST,Verdelingspunt]-insert REPARTITION_INST;\;;;
+[CONCENTR_LIGNE_INST,Gemeenschapelijk lijn]-insert CONCENTR_LIGNE_INST;\;;;
+[CONCENTR_LIGNE_POT_INST,Gemeensch lijn op paal]-insert CONCENTR_LIGNE_POT_INST;\;;;
+[DISP_RETENUE_GLIS_CABL_G_INST,Vermijd verschuiving L kabel]-insert DISP_RETENUE_GLIS_CABL_G_INST;\;;;
+[DISP_RETENUE_GLIS_CABL_D_INST,Vermijd verschuiving R kabel]-insert DISP_RETENUE_GLIS_CABL_D_INST;\;;;
+[CH_RACC_RET_CABL_G_INST,Kamer verschuiving L kabel]-insert CH_RACC_RET_CABL_G_INST;\;;;
+[CH_RACC_RET_CABL_D_INST,Kamer verschuiving R kabel]-insert CH_RACC_RET_CABL_D_INST;\;;;
+[ANODE_PROTECTION_INST,Anode voor bescherming]-insert ANODE_PROTECTION_INST;\;;;
+[ANODE_PROTECTION_MG_INST,Anode voor bescherming in Mg]-insert ANODE_PROTECTION_MG_INST;\;;;
+
+**INST04
+[INST04,Kop of net en versterkers]
+[TETE_RES_ARANT_LTR_LDIS_INST,Aankomst antenne 1Lijn doorvoer 1L distributie]-insert TETE_RES_ARANT_LTR_LDIS_INST;\;;;
+[TETE_RES_LTR_LENTR_INST,1 Lijn binnen 1L doorvoer buiten]-insert TETE_RES_LTR_LENTR_INST;\;;;
+[AMPL_DERIV_1LIGN_INST,Versterker aftakking 1L]-insert AMPL_DERIV_1LIGN_INST;\;;;
+[AMPL_DERIV_2LIGN_INST,Versterker aftakking 2L]-insert AMPL_DERIV_2LIGN_INST;\;;;
+[AMPL_DERIV_3LIGN_INST,Versterker aftakking 3L]-insert AMPL_DERIV_3LIGN_INST;\;;;
+[AMPL_DERIV_4LIGN_INST,Versterker aftakking 4L]-insert AMPL_DERIV_4LIGN_INST;\;;;
+[AMPL_LIGN_1DERIV_INST,Verst Lijn 1L aftakking]-insert AMPL_LIGN_1DERIV_INST;\;;;
+[AMPL_LIGN_2DERIV_INST,Verst Lijn 2L aftakking]-insert AMPL_LIGN_2DERIV_INST;\;;;
+[AMPL_LIGN_3DERIV_INST,Verst Lijn 3L aftakking]-insert AMPL_LIGN_3DERIV_INST;\;;;
+[AMPL_LIGN_4DERIV_INST,Verst Lijn 4L aftakking]-insert AMPL_LIGN_4DERIV_INST;\;;;
+[AMPL_TERM_LIGN_1DISTR_INST,Verst eindelijn 1L distrib buiten]-insert AMPL_TERM_LIGN_1DISTR_INST;\;;;
+[AMPL_TERM_LIGN_2DISTR_INST,Verst eindelijn 2L distrib buiten]-insert AMPL_TERM_LIGN_2DISTR_INST;\;;;
+[AMPL_TERM_LIGN_3DISTR_INST,Verst eindelijn 3L distrib buiten]-insert AMPL_TERM_LIGN_3DISTR_INST;\;;;
+[AMPL_TERM_LIGN_4DISTR_INST,Verst eindelijn 4L distrib buiten]-insert AMPL_TERM_LIGN_4DISTR_INST;\;;;
+[AMPL_RES_DISTR_V_RETOUR_INST,Verst net met terugkeer]-insert AMPL_RES_DISTR_V_RETOUR_INST;\;;;
+
+**INST05
+[INST05,Verdelers]
+[REPART_2VOIES_INST,Verdeler 2L]-insert REPART_2VOIES_INST;\;;;
+[REPART_3VOIES_INST,Verdeler 3L]-insert REPART_3VOIES_INST;\;;;
+[REPART_4VOIES_INST,Verdeler 4L]-insert REPART_4VOIES_INST;\;;;
+[COUPLEUR_DIRECTIF_INST,Maak-en-breek richting]-insert COUPLEUR_DIRECTIF_INST;\;;;
+
+**INST06
+[INST06,Aftakking en stopcontact]
+[DERIV_USAGER_1L_INST,Aftakking gebruiker 1L]-insert DERIV_USAGER_1L_INST;\;;;
+[DERIV_USAGER_2L_INST,Aftakking gebruiker 2L]-insert DERIV_USAGER_2L_INST;\;;;
+[DERIV_USAGER_3L_INST,Aftakking gebruiker 3L]-insert DERIV_USAGER_3L_INST;\;;;
+[DERIV_USAGER_4L_INST,Aftakking gebruiker 4L]-insert DERIV_USAGER_4L_INST;\;;;
+[PRISE_USAGER_INST,Stopcontact gebruiker]-insert PRISE_USAGER_INST;\;;;
+[PRISE_DIRECTE_INST,Rechtstreeks stopcontact]-insert PRISE_DIRECTE_INST;\;;;
+
+**INST07
+[INST07,Gelijkrichter en verzachter]
+[EGALISEUR_INST,Gelijkrichter]-insert EGALISEUR_INST;\;;;
+[EGALISEUR_VAR_INST,Gelijkrichter wisselend]-insert EGALISEUR_VAR_INST;\;;;
+[AFFAIBLISSEUR_INST,Verzachter]-insert AFFAIBLISSEUR_INST;\;;;
+
+**INST08
+[INST08,Voedingen]
+[AL_LIGNE_CA_INST,Voeding lijn AC]-insert AL_LIGNE_CA_INST;\;;;
+[AL_LIGNE_CC_INST,Voeding lijn DC]-insert AL_LIGNE_CC_INST;\;;;
+[BLOC_ALIM_SUR_LIGNE_INST,Blokkering voeding op lijn]-insert BLOC_ALIM_SUR_LIGNE_INST;\;;;
+[POINT_INJECTION_ALIM_INST,Injectie punt voor voeding]-insert POINT_INJECTION_ALIM_INST;\;;;
+
+***HELPSTRINGS
+
+ID_SYMBOLES    [XXX]
+
+//
+//      End of AutoCAD menu file
+//
+
